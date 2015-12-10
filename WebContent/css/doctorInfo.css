@@ -1,0 +1,379 @@
+.crumbs{
+    width: 1200px;
+    height: 100px;
+    padding-left: 50px;
+    line-height: 100px;
+    /*border: 1px solid red;*/
+    background: url("../images/icon/address.png") no-repeat 20px;
+}
+.crumbs span{
+    font-size: 16px;
+}
+.crumbs span a{
+    color: #000;
+    font-size: 16px;
+}
+.content{
+    width: 1120px;
+    padding: 45px 40px 0;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.con_div{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 40px;
+    /*background: #4a90e2;*/
+    position: relative;
+}
+.con_top{
+    float: left;
+    height: 160px;
+    overflow: hidden;
+}
+/*医生头像*/
+.docHead{
+    position: relative;
+    text-align: center;
+    width: 150px;
+    vertical-align: middle;
+    overflow: hidden;
+    z-index: 1;
+    /*background: #4a90e2;*/
+}
+.docHead img{
+    width: 150px;
+    height: 150px;
+}
+/*普通医生*/
+.headBg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background: url("../images/doctorInfo/headborder.png") no-repeat;
+}
+/*791认证医生*/
+.headCloudBg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background: url("../images/doctorInfo/headborder_cloud.png") no-repeat;
+}
+.docHead img{
+    position: relative;
+    width: 145px;
+    height: 145px;
+    z-index: -5;
+    vertical-align: middle;
+}
+
+/*医生信息*/
+.docMes{
+    width: 630px;
+    margin-left: 30px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+.docMes h1{
+    font-size: 24px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 10px 0 30px 0;
+    height: 30px;
+    line-height: 30px;
+}
+.docClass{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-left: 10px;
+}
+.docMes span{
+    /*border: 1px solid red;*/
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+/*服务模块*/
+.serveMod{
+    position: relative;
+    width: 540px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    /*background: #000;*/
+}
+.serveMod span{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+}
+.serveMod span button{
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    padding-left: 45px;
+    cursor: pointer;
+}
+/*791认证医生服务*/
+.attDoc{
+    background: url("../images/doctorInfo/cloud.png") no-repeat 2px;
+}
+/*图文咨询*/
+.imgConsult{
+    background: url("../images/doctorInfo/consult.png") no-repeat 2px;
+}
+/*配药服务*/
+.dosage{
+    background: url("../images/doctorInfo/presctiption.png") no-repeat 2px;
+}
+/*私人医生*/
+.privateDoc{
+    background: url("../images/doctorInfo/privatedoctor.png") no-repeat 2px;
+}
+
+/*收藏*/
+.collectBtn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 30px;
+    font-size: 20px;
+    color: #4a90e2;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.collect1{
+    background: url("../images/doctorInfo/collection1.png") no-repeat 5px #fff;
+}
+.collect0{
+    background: url("../images/doctorInfo/collection0.png") no-repeat 5px 5px #fff;
+}
+/*执业经历*/
+.experienceMod{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    margin-top: 20px;
+}
+.experienceMod span{
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    color: #444;
+}
+.experienceMod p{
+    text-indent: 2em;
+    line-height: 30px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+/*预约挂号*/
+.con_bot{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+    /*background: #009f95;*/
+}
+/*title*/
+.con_bot_tit{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #dfe0e4;
+}
+.con_bot_tit span{
+    float: left;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.dayUl{
+    width: 1120px;
+    height: auto;
+    overflow: hidden;
+    /*background: #4a90e2;*/
+}
+.dayUl li{
+    float: left;
+    width: 373px;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    text-align: center;
+    background: #ecf9ff;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.54);
+    cursor: pointer;
+}
+.dayUlAc{
+    background: #fff !important;
+    color: #4a90e2 !important;
+}
+.docRoster{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 1120px;
+    height: auto;
+    border: 1px solid #d5f1f2;
+    margin-top: 25px;
+    background: #ecf9ff;
+}
+.docRoster thead tr th{
+    height: 60px;
+    border: 1px solid #d5f1f2;
+}
+.docRoster tbody tr th{
+    height: 75px;
+    border: 1px solid #d5f1f2;
+}
+.docRoster tr th:first-child{
+    font-size: 20px;
+    font-weight: normal;
+    width: 155px;
+    color: #444;
+}
+.docRoster tr th{
+    font-size: 16px;
+    font-weight: normal;
+    color: #444;
+}
+.docRoster thead tr th span{
+    display: block;
+    width: 135px;
+    /*border: 1px solid red;*/
+}
+.docRoster tbody tr th button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    /*margin-top: 1px;*/
+}
+.docRoster tbody tr th button span{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+}
+/*可预约*/
+.appointYes{
+    background: #4990e2;
+    cursor: pointer;
+}
+.appointNo{
+    background: #99a6b6;
+}
+
+/*医生评价*/
+.satisfactionMod{
+    float: left;
+    margin-left: 20px;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+.satisfactionMod li{
+    float: left;
+    padding: 0 10px;
+    width: auto;
+    height: 45px;
+    line-height: 55px;
+    font-size: 16px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.87);
+}
+.satAc{
+    color: #4a90e2 !important;
+}
+
+/*评论列表*/
+.reviewMod{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.reviewList{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.reviewListTit{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    background: #cee0f8;
+}
+.reviewListTit span{
+    margin-left: 30px;
+}
+.revCon{
+    position: relative;
+    width: 990px;
+    padding: 15px 100px 15px 30px;
+    height: auto;
+    background: #f4fcff;
+}
+.revCon i{
+    position: absolute;
+    width: 65px;
+    height: 90px;
+    right: 15px;
+    top: 15px;
+}
+.revConP{
+    width: 100%;
+    height: 90px;
+    /*background: #ee82ee;*/
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+/*非常满意*/
+.goodRev{
+    background: url("../images/doctorInfo/greatsatisfied.png") no-repeat;
+}
+/*满意*/
+.normalRev{
+    background: url("../images/doctorInfo/satisfied.png") no-repeat;
+}
+/*一般*/
+.badRev{
+    background: url("../images/doctorInfo/normal.png") no-repeat;
+}
+
+/*暂时没有评价*/
+.reviewNo{
+    width: 100%;
+    height: 175px;
+    padding: 35px 0 0 100px;
+    background: #009f95;
+}

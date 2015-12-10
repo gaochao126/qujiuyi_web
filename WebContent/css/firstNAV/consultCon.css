@@ -1,0 +1,606 @@
+.consultCon{
+    position: relative;
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+}
+.conCon{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 30px auto;
+    display: block;
+}
+.consultLeft{
+    position: relative;
+    width: 820px;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+.talkMod{
+    position: relative;
+    width: 820px;
+    /* height: 515px !important; */
+    border: 1px solid #bababa;
+    overflow: hidden;
+    background: #fff;
+    text-align: left;
+    border-radius: 10px;
+}
+.talkTop{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    border-bottom: 1px solid #bababa;
+    text-align: center;
+    background: -webkit-linear-gradient(top, #FFFFFF, #D8D8D8);
+	overflow: hidden;
+}
+.talkTop h1{
+    font-size: 24px;
+    color: #333;
+    font-weight: normal;
+}
+.talkTop a{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    color: #4a90e2;
+}
+.talkCon{
+    position: relative;
+    width: 770px;
+    padding: 0px 25px 0px 25px;
+    height: 380px ;
+    overflow: auto;
+    background: #fff;
+}
+.talkBot{
+    position: relative;
+    width: 100%;
+    line-height: 80px;
+    overflow: hidden;
+    background-color: rgba(246, 246, 246, 246);
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(246, 246, 246, 246)), to(rgba(205, 205, 205, 205)));
+    background: -webkit-linear-gradient(top, rgba(246, 246, 246, 246), rgba(205, 205, 205, 205));
+    background: -ms-linear-gradient(top, rgba(246, 246, 246, 246), rgba(205, 205, 205, 205));
+    border-top: 1px solid rgba(0, 0, 0, 0.26);
+    color: #666;
+}
+.conditionDes{
+    position: relative;
+    height:340px;
+    margin-top:20px;
+    font-size:14px;
+}
+.conditionDes h1,.conditionDes p,.conditionDes span{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    display: block;
+    /*font-family: 'SimHei';*/
+}
+.inputDiv{
+    /*border: 1px solid red;*/
+    outline: none;
+    font-size: 16px;
+    line-height: 35px;
+    text-indent: 2em;
+    margin: 5px 0;
+}
+#nowDes{
+    width: 720px;
+    float: left;
+    text-indent: 0;
+}
+.inputMod{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+.inputMod i{
+    font-style: normal;
+    font-size: 16px;
+}
+.inputMod input{
+    width: 500px;
+    height: 35px;
+    line-height: 35px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+#addPic{
+    float: right;
+    padding-left: 40px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    outline: none;
+    background: url("../../images/firstNAV/picture_add.png") no-repeat;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 90px !important;
+}
+#patientAge{
+    width: 50px;
+    height: 25px;
+    padding-left: 10px;
+    line-height: 25px;
+    border: 1px solid #999;
+    outline: none;
+    margin-left: 10px;
+}
+.talkBot input[type=radio]{
+    margin-left: 10px;
+}
+.subCon{
+	width: 100%;text-align: center;margin-top: -15px;
+}
+#subBtn{
+    width: 435px;
+    height: 50px;
+    line-height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    background: #2CBADE;
+    border-radius:3px;
+}
+
+/*right*/
+.consultRig{
+    position: relative;
+    float: right;
+    width: 305px;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 25px;
+}
+.consultRig h1{
+    font-size: 20px;
+    font-weight: normal;
+    color: #444;
+    margin-bottom: 10px;
+}
+.consultRig h1 span{
+    font-size: 30px;
+    color:#F1A322;
+}
+.consultRig ol{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.consultRig ol li{
+    line-height: 25px;
+}
+/*医生list*/
+.docList{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.docList li{
+    width: 100%;
+    height: 165px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    margin-bottom: 20px !important;
+}
+.docList li:last-child{
+    margin-bottom: 0;
+}
+.docList li img{
+    float: left;
+    width: 140px;
+    height: 165px;
+    overflow: hidden;
+}
+.docListCon{
+    float: right;
+    width: 150px;
+    height: 165px;
+    /*background: #ee82ee;*/
+    padding-left: 15px;
+}
+.docListCon h1{
+    font-size: 18px;
+    color: #4a90e2;
+}
+.docListCon p{
+    width: 100%;
+    font-size: 14px;
+    color: #333;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.docAt{
+    display: block;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    /*border: 1px solid #333;*/
+    color: #999;
+    padding-left: 30px;
+    background: url("../../images/medical/tab.png") 2px no-repeat;
+}
+.docListCon i{
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 25px;
+    height: 50px;
+    color: #999;
+}
+
+/*quesHistory*/
+.quesHistory{
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 30px auto;
+    /*display: none; */
+}
+/*historyLeft*/
+#historyLeft{
+    position: relative;
+    width: 520px;
+    height: 480px;
+    overflow-y: auto;
+}
+.historyLeft{
+    float: left;
+    position: relative;
+    width: 520px;
+    height: 550px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #b3b3b5;
+}
+.historyLeft h1{
+    width: 495px;
+    height: 70px;
+    line-height: 70px;
+    background: #2cbade;
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    padding-left: 25px;
+}
+.hisList{
+    width: 470px;
+    height: auto;
+    overflow: hidden;
+    padding: 25px;
+    /*border-bottom: 1px solid red;*/
+    /*background: #ee82ee;*/
+}
+.hisList:nth-child(odd){
+    background: #fcfcfc;
+}
+.hisList:nth-child(even){
+    background: #f1f8fe;
+}
+.hisList a{
+    display: block;
+    padding-left: 20px;
+    background: url("../../images/medical/dot.png") 5px no-repeat;
+    overflow: hidden;
+    color: #262626;
+}
+.hisList p{
+    padding-left: 20px;
+    line-height: 35px;
+    /*border: 1px solid red;*/
+}
+.minTimes{
+    float: right;
+    color: rgba(0, 0, 0, 0.26);
+    /*border: 1px solid red;*/
+}
+
+/*historyRight*/
+.historyRight{
+    position: relative;
+    width: 665px;
+    height: 550px;
+    overflow: hidden;
+    float: right;
+    /* background: #ee82ee; */
+    border: 1px solid #b3b3b5;
+}
+.hisRogTop{
+    position: relative;
+    width: 645px;
+    height: 50px;
+    overflow: hidden;
+    background: #fdfdfd;
+    padding: 10px;
+}
+.hisRogTop img{width: 42px;height: 49px;float: left;}
+.hisRogTop p{
+    width: 70%;
+    float: left;
+    margin-left: 10px;
+    /*border: red 1px solid;*/
+    line-height: 25px;
+    color: #444;
+}
+.hisRogTop p span{margin-right: 25px;}
+.hisRogTop p .docNames{
+    color: #2cbade;
+    font-size: 16px;
+}
+.hisRogTop button{
+    float: right;
+    width: 55px;
+    height: 25px;
+    border: none;
+    outline: none;
+    margin-top: -15px;
+    background: #ff5500;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.doctorNo i{
+    font-style: normal;
+    color: #2cbade;
+}
+.doctorNo p{
+    line-height: 50px;
+}
+.doctorNo button{
+    margin-top: 15px;
+    background: #dedede;
+}
+
+.hisRogBot{
+    position: relative;
+    width: 635px;
+    height: 100px;
+    overflow: hidden;
+    background: #fdfdfd;
+    padding: 15px;
+    outline: none;
+}
+.hisRogBot .addBtn{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background: url("../../images/firstNAV/picture_add.png");
+    background-size: cover;
+    border: none;
+    outline: none;
+}
+.hisRogBot .enterBtn{width: 55px;height: 25px;border: none;outline: none;cursor: pointer;color: #fff;background: #0089ec;float: right;border-radius: 3px;}
+.hisRogBot textarea{width: 100%;height: 45px;outline: none;border: none;}
+.hisRogCon{
+    position: relative;
+    width: 665px;
+    height: 350px;
+    overflow: auto;
+    background: #efefef;
+    border-top: 1px solid #c2c2c2;
+    border-bottom: 1px solid #c2c2c2;
+}
+.hisRogCon p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.linerCon{width: 100%;height: auto;overflow: hidden;position: relative;}
+
+.sendBad{
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    background: red;
+  /*   border: 1px solid red; */
+    position: absolute;
+    left: -25px;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+}
+/*医生发送失败*/
+.docSendBad{
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    background: red;
+    /*border: 1px solid red;*/
+    position: absolute;
+    /*left: -25px;*/
+    right: -25px;
+    top: 8px;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    color: #fff;
+}
+
+.userLiner{
+    position: relative;
+    width: auto;
+    max-width: 50%;
+    height: auto;
+    line-height: 25px;
+    float: right;
+    font-size: 15px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #2cbade;
+    color: #eaffff;
+}
+
+.sendBad{
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    background: red;
+    /*border: 1px solid red;*/
+    position: absolute;
+    left: -25px;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+}
+
+
+
+.linerCon p:before{
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    opacity: 1;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    content: " ";
+    display: block;
+    margin-top: -7px;
+    margin-left: -3px;
+    top: 18px;
+}
+.userLiner:before{
+    right: -5px;
+    background: #2cbade;
+}
+.linerCon p img{
+    width: 100%;
+    height: 100%;
+}
+.docLinerHead{
+    display: block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius:50%;
+}
+.patLinerHead{
+	float: right;
+	display: block;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius:50%;
+}
+.docLinerHead img{width: 40px !important;height: 40px !important;}
+.patLinerHead img{width: 40px;height: 40px;}
+.docLiner{
+    position: relative;
+    width: auto;
+    max-width: 80%;
+    height: auto;
+    line-height: 25px;
+    float: left;
+    font-size: 15px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: #fff;
+    color: #444;
+    margin-left: 20px;
+}
+.docLiner:before{
+    left: -2px;
+    background: #fff;
+}
+.linerTime{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: center;
+    color: #444;
+}
+
+.none{
+	display: none;
+}
+.payHint{
+	width:100%;
+	background: #FDF7EB;
+	padding:5px 25px 5px 25px;
+	font-size:14px;
+	opacity:0.87;
+}
+.payHint span{
+	color:#F1A322;
+}
+.popPayBack{
+	display:none;
+	width:100%; 
+	height:155%;
+	position:absolute;
+	z-index: 1;
+	top:0;
+	left:0;
+	background: rgba(0,0,0,0.17);
+}
+.popPayCon{
+	display:none;
+	width:525px;
+	height:290px;
+	border:solid 1px #F4F4F4;
+	border-radius:3px;
+	position:fixed;
+	top:45%;
+	left:24%;
+	box-shadow:2px 2px 5px #888888;
+	z-index: 1;
+	padding:25px 25px 0px 25px;
+	background:#fff;
+}
+.popPayCon div{
+	text-align: center;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.popPayCon h3{
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.popPayCon p{
+	font-size:14px;
+	padding-top:15px;	
+}
+.popPayCon p a{
+	color:#2CBADE;
+}
+.weixinChat{
+	width:216px;
+	height:132px;
+	position:absolute;
+	bottom:-15px;
+	right:0px;
+	background: url("../../images/firstNAV/weichat.png");
+	background-repeat: no-repeat;
+	background-position: bottom right;
+}

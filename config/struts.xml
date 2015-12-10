@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN"
+    "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+    <constant name="struts.i18n.encoding" value="UTF-8" />
+    <constant name="struts.devMode" value="false" />
+    <constant name="struts.i18n.reload" value="true" />
+    <constant name="struts.configuration.xml.reload" value="true" />
+    <constant name="struts.objectFactory" value="spring"/>
+    <constant name="struts.ognl.allowStaticMethodAccess" value="true" />
+    <constant name="struts.action.extension" value="html" /> 
+	
+    <package name="default" extends="struts-default" namespace="/">
+    	<action name="patient_*" class="com.jiuyi.qujiuyi.action.patient.PatientAction" method="{1}">
+    		<result name="login">/pages/patient/login.jsp</result>
+    		<result name="register">/pages/patient/register.jsp</result>
+    		<result name="resetPassword">/pages/patient/resetPassword.jsp</result>
+    		<result name="index">/pages/index/index.jsp</result>
+    	</action>
+    	
+    	<action name="area_*" class="com.jiuyi.qujiuyi.action.area.AreaAction" method="{1}">
+    		<result name="citySelect">/pages/area/citySelect.jsp</result>
+    	</action>
+    	
+    	<action name="hospital_*" class="com.jiuyi.qujiuyi.action.hospital.HospitalAction" method="{1}">
+    		<result name="hospitalSelect">/pages/hospital/hospitalSelect.jsp</result>
+    		<result name="hospitalInfo">/pages/hospital/hospitalInfo.jsp</result>
+    		<result name="dialog">/pages/hospital/dialog.jsp</result>
+    	</action>
+    	
+    	<action name="department_*" class="com.jiuyi.qujiuyi.action.department.DepartmentAction" method="{1}">
+    		<result name="departmentSelect">/pages/department/departmentSelect.jsp</result>
+    		<result name="departmentInfo">/pages/department/departmentInfo.jsp</result>
+    		<result name="departmentListItem">/pages/department/departmentListItem.jsp</result>
+    	</action>
+    	
+    	<action name="index_*" class="com.jiuyi.qujiuyi.action.index.IndexAction" method="{1}">
+    		<result name="index">/pages/index/index.jsp</result>
+    		<result name="hospitalList">/pages/index/index_hospitalList.jsp</result>
+    		<result name="helthNewsList">/pages/index/index_healthNews.jsp</result>
+    		<result name="commonDiseases">/pages/index/index_commonDiseases.jsp</result>
+    		<result name="famousDoctor">/pages/index/index_famousDoctors.jsp</result>
+    	</action>
+    	
+    	<action name="doctor_*" class="com.jiuyi.qujiuyi.action.doctor.DoctorAction" method="{1}">
+    		<result name="doctorInfo">/pages/doctor/doctorInfo.jsp</result>
+    		<result name="chooseDoctor">/pages/doctor/chooseDoctor.jsp</result>
+    		<result name="twoLevelDepartment">/pages/doctor/twoLevelDepartment.jsp</result>
+    		<result name="register">/pages/doctor/register.jsp</result>
+    	</action>
+    	
+    	<action name="common_*" class="com.jiuyi.qujiuyi.action.common.CommonAction" method="{1}">
+    		<result name="download">/pages/common/download.jsp</result>
+    	</action>
+    	
+    	<action name="register_*" class="com.jiuyi.qujiuyi.action.register.RegisterAction" method="{1}">
+    		<result name="choosePatient">/pages/register/choosePatient.jsp</result>
+    		<result name="paySuccess">/pages/register/paySuccess.jsp</result>
+    		<result name="appointmentRegister">/pages/register/appointmentRegister.jsp</result>
+    		<result name="hospitalList">/pages/index/index_hospitalList.jsp</result>
+    	</action>
+    	
+    	<action name="news_*" class="com.jiuyi.qujiuyi.action.news.NewsAction" method="{1}">
+    		<result name="newDrugIntroduct">/pages/news/newDrugIntroduct.jsp</result>
+    		<result name="newDrugIntroductItem">/pages/news/newDrugIntroductItem.jsp</result>
+    		<result name="newDrugIntroductDetail">/pages/news/newDrugIntroductDetail.jsp</result>
+    		<result name="medicalNews">/pages/news/medicalNews.jsp</result>
+    		<result name="medicalNewsItem">/pages/news/medicalNewsItem.jsp</result>
+    		<result name="medicalNewsDetail">/pages/news/medicalNewsDetail.jsp</result>
+    		<result name="specialMedical">/pages/news/specialMedical.jsp</result>
+    		<result name="caseAnalysis">/pages/news/caseAnalysis.jsp</result>
+    		<result name="caseAnalysisItem">/pages/news/caseAnalysisItem.jsp</result>
+    		<result name="excellentDoctor">/pages/news/excellentDoctor.jsp</result>
+    		<result name="healthCare">/pages/news/healthCare.jsp</result>
+    		<result name="communityHealth">/pages/news/communityHealth.jsp</result>
+    		<result name="communityHealthItem">/pages/news/communityHealthItem.jsp</result>
+    		<result name="featureMedicalDepartment">/pages/news/featureMedicalDepartment.jsp</result>
+    		<result name="cmtu">/pages/news/cmtu.jsp</result>
+    		<result name="famousPrescription">/pages/news/famousPrescription.jsp</result>
+    		<result name="famousPrescriptionDetail">/pages/news/famousPrescriptionDetail.jsp</result>
+    		<result name="famousPrescriptionItem">/pages/news/famousPrescriptionItem.jsp</result>
+    		<result name="healthRecord">/pages/news/healthRecord.jsp</result>
+    		<result name="healthCareItem">/pages/news/healthCareItem.jsp</result>
+    		<result name="healthCareDetail">/pages/news/healthCareDetail.jsp</result>
+    		<result name="caseAnalysisDetail">/pages/news/caseAnalysisDetail.jsp</result>
+    	</action>
+    	
+    	<action name="consult_*" class="com.jiuyi.qujiuyi.action.consult.ConsultAction" method="{1}">
+    		<result name="consultDoctor">/pages/consult/consultDoctor.jsp</result>
+    		<result name="login">/pages/patient/login.jsp</result>
+    		<result name="consultDoctorDetail">/pages/consult/consultDoctorDetail.jsp</result>
+    		<result name="onlineMedical">/pages/consult/onlineMedical.jsp</result>
+    		<result name="chatDoctor">/pages/consult/consultChat.jsp</result>
+    		<result name="chatList">/pages/consult/chatList.jsp</result>
+    		<result name="chatConsultListItem">/pages/consult/chatConsultListItem.jsp</result>
+    	</action>
+    	
+    	<action name="inspection_*" class="com.jiuyi.qujiuyi.action.inspection.inspectionAction" method="{1}">
+    		<result name="myInspection">/pages/inspection/myInspection.jsp</result>
+    	</action>
+    	
+    	<action name="diseases_*" class="com.jiuyi.qujiuyi.action.diseases.DiseasesAction" method="{1}">
+    		<result name="commonDiseases">/pages/diseases/commonDiseases.jsp</result>
+    		<result name="commonDiseasesItem">/pages/diseases/commonDiseasesItem.jsp</result>
+    		<result name="commonDiseasesDetail">/pages/diseases/commonDiseasesDetail.jsp</result>
+    		<result name="ABC">/pages/diseases/diseaseABC.jsp</result>
+    	</action>
+
+    	<action name="special_*" class="com.jiuyi.qujiuyi.action.specialhealth.SpecialHealth" method="{1}">
+    		
+    	</action>
+    	
+    	<action name="medicalTreatment_*" class="com.jiuyi.qujiuyi.action.medicalTreatment.MedicalTreatmentAction" method="{1}">
+    		<result name="specialMedicalTreatment">/pages/medicalTreatment/specialMedicalTreatment.jsp</result>
+    		<result name="sepcialDepartment">/pages/medicalTreatment/featureMedicalDepartment.jsp</result>
+    		<result name="doctorList">/pages/medicalTreatment/specialDoctorList.jsp</result>
+    	</action>
+    	
+    	<action name="onlineLearning_*" class="com.jiuyi.qujiuyi.action.onlineLearning.onlineLearningAction" method="{1}">
+    		<result name="onlineLearning">/pages/onlineLearning/onlineLearning.jsp</result>
+    	</action>
+    	
+		<action name="VIPService_*" class="com.jiuyi.qujiuyi.action.VIPService.VIPServiceAction" method="{1}">
+    		<result name="VIPService">/pages/VIPService/VIPService.jsp</result>
+    	</action>
+    	
+		<action name="medAid_*" class="com.jiuyi.qujiuyi.action.medicalAid.medicalAidAction" method="{1}">
+    		<result name="medicalAid">/pages/medicalAid/medicalAid.jsp</result>
+    	</action>
+    	
+    	<action name="onlineMedical_*" class="com.jiuyi.qujiuyi.action.onlineMedical.OnlineMedical" method="{1}">
+    		<result name="onlineMedical">/pages/onlineMedical/onlineMedical.jsp</result>
+    		<result name="onlineDoctorList">/pages/onlineMedical/consultDoctor.jsp</result>
+    	</action>
+    	<action name="DPInteraction_*" class="com.jiuyi.qujiuyi.action.DPIteraction.DPInteractionAction" method="{1}">
+    		<result name="DPInterate">/pages/DPInteration/doctorPatientInteraction.jsp</result>
+    	</action>
+    	<action name="joinUs_*" class="com.jiuyi.qujiuyi.action.join.joinUsAction" method="{1}">
+    		<result name="joinUs">/pages/joinUs/joinUs.jsp</result>
+    	</action>
+    	<action name="userCenter_*" class="com.jiuyi.qujiuyi.action.userCenter.UserCenterAction" method="{1}">
+    		<result name="userCenter">/pages/userCenter/userCenter.jsp</result>
+    		<result name="myAppointment">/pages/userCenter/myAppointment.jsp</result>
+    	</action>
+    </package>
+</struts>

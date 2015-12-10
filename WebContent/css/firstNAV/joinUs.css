@@ -1,0 +1,130 @@
+.contentUs{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    background: #fff;
+}
+.topBanner{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background: url("../../images/joinUs/banner.png") no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+}
+#joinUsBtn{
+    position: absolute;
+    width: 180px;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    background: #e25717;
+    bottom: 150px;
+    left: 40%;
+    -moz-transition: all 0.4s;	/* Firefox 4 */
+    -webkit-transition: all 0.4s;	/* Safari 和 Chrome */
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+#joinUsBtn:hover{
+    background: red;
+}
+
+/*我们需要*/
+.contentUsLis{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.zhiweimes{
+    display: none;
+}
+.block{
+    display: block;
+}
+.contentUsLis h1{
+    width: 1020px;
+    font-size: 32px;
+    padding-left: 30px;
+    color: #444;
+    padding-bottom: 15px;
+    font-weight: normal;
+    border-bottom: 1px solid #979797;
+}
+.contentUsLis h2{
+    width: 1020px;
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: normal;
+    color: #444;
+    line-height: 30px;
+}
+.contentUsLis h3{
+    position: relative;
+    /*border: 1px solid red;*/
+    height: 50px;
+    line-height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 990px;
+    padding-left: 60px;
+}
+.contentUsLis h3 img{
+    position: absolute;
+    left: 30px;
+    top: 5px;
+}
+.numLis{
+    width: 1020px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+}
+.numLis li{
+    width: 28%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    color: #444;
+    padding-left: 50px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.numLis li:hover{
+    color: #4a90e2;
+}
+.numLisActive{
+    color: #4a90e2 !important;
+    cursor: pointer;
+}
+.contentUsLis h3 span{
+    font-size: 18px;
+    font-weight: normal;
+}
+.zhiwei{
+    margin-left: 30px;
+    color: #4a90e2;
+}
+.workAdd{
+    color: #444;
+    margin-left: 70px;
+}
+.zhiweiLis{
+    width: 1020px;
+    padding-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.zhiweiLis li{
+    line-height: 30px;
+    font-size: 16px;
+    color: #444;
+}

@@ -1,0 +1,211 @@
+.inspectionLeft{
+    float: left;
+    width: 830px;
+    height: auto;
+    overflow: hidden;
+    /*background: #ee82ee;*/
+}
+.insLeftTop{
+    width: 830px;
+    height: 380px;
+    overflow: hidden;
+    background: url("../../images/firstNAV/img_1.png") 45px 20px no-repeat #fff;
+    padding-top: 20px;
+}
+.topNews{
+    float: right;
+    width: 280px;
+    height: 355px;
+    background: #fff;
+    margin-right: 20px;
+}
+.topNews h1{
+    font-weight: normal;
+    font-size: 28px;
+    color: #008bf1;
+}
+.topNews p{
+    color: rgba(226, 87, 19, 0.87);
+    font-size: 16px;
+    margin-top: 45px;
+}
+.topNews ul{margin-top: 15px;margin-left: 15px;}
+.topNews ul li{
+    list-style: disc;
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+.insBtn{
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    background: #f5a623;
+    margin-top: 25px;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.insLeftBot{
+    width: 770px;
+    height: 405px;
+    padding: 30px;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
+.insLeftBot h1{
+    font-size: 28px;
+    color: #333;
+    font-weight: normal;
+    text-align: left;
+}
+.insLeftBot h3{font-size: 16px;color: rgba(0, 0, 0, 0.54);margin-top: 12px;text-align: left;}
+.insLeftBot div{
+    float: left;
+    height: 120px;
+    background: #008b8b;
+    margin-top: 50px;
+    text-align: left;
+    padding-top: 100px;
+    margin-left: 40px;
+}
+.insLeftBot div h2{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    /*border: 1px solid red;*/
+    line-height: 45px;
+    font-weight: normal;
+}
+.insLeftBot div h2 span{
+    font-size: 30px;
+    color: #ff5252;
+    margin-right: 10px;
+    /*border: 1px solid #000;*/
+    display: block;
+    width: 20px;
+    float: left;
+}
+.insLeftBot div p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.54);
+    line-height: 20px;
+}
+
+/*right*/
+.inspectionRig{
+    float: right;
+    width: 355px;
+    height: auto;
+    overflow: hidden;
+    /*background: #8b008b;*/
+}
+.insRigTop{
+    padding: 25px;
+    width: 305px;
+    height: 285px;
+    background: #fff;
+}
+.insRigTop h1{
+    width: 100%;
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #444;
+}
+.insRigTop select{
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 3px;
+    background: #f8f8f8;
+    border: 1px solid #d4e5f7;
+    font-size: 12px;
+    color: #4a4a4a;
+}
+.insRigTop input{
+    width: 293px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #4990e2;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+}
+#checkNum{
+    float: right;
+    width: 200px;
+}
+.insRigTop button{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: #fff;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    background: #f5a623;
+    cursor: pointer;
+}
+.insRigBot{
+    position: relative;
+    padding: 25px 0 25px 25px;
+    width: 330px;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 30px;
+}
+.insRigBot h1{
+    width: 100%;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #444;
+}
+.insRigBot p{
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
+}
+.insBotCon{
+    width: 100%;
+    height: 500px;
+    overflow-y: auto;
+}
+.docLisCon{
+    width: 100%;
+    height: 140px;
+    margin-top: 20px;
+    /*background: #008b8b;*/
+}
+.docLisCon img{
+    float: left;
+    width: 120px;
+    height: 140px;
+    overflow: hidden;
+}
+.docMesCon{
+    width: 200px;
+    height: 140px;
+    float: right;
+    /*background: #fa8072;*/
+}
+.docMesCon p{
+    font-size: 14px;
+    color: #333;
+    margin-top: 25px;
+}
+.docMesCon p span{
+    font-size: 18px;
+    color: #000;
+    margin-right: 15px;
+}

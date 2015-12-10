@@ -1,0 +1,372 @@
+.firstImg {
+	position: relative;
+	width: 465px;
+	height: 315px;
+	overflow: hidden;
+	margin-right: 0px;
+	background: url(../../images/learningOnline/course_bg1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.newsContent{
+    position: relative;
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+}
+.newsTop{
+    position: relative;
+    width: 100%;
+    height: 315px;
+    overflow: hidden;
+    margin-top: 30px;
+    background: #fff;
+}
+.topUl{
+    width: 100%;
+    height: 315px;
+    overflow: hidden;
+}
+.topUl li{
+    float: left;
+    position: relative;
+}
+.topUl li div a:hover:before {
+	opacity: 0;
+}
+.topUl li div a{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: no-repeat center center;
+    background-size: cover
+}
+.seeMoreCourse {
+	width: 160px !important;
+	height: 40px !important;
+	position: absolute !important;
+	bottom: 16px !important;
+	margin-left: 32%;
+}
+.firstMesHead {
+	position: absolute;
+	top: 50px;
+	display: block;
+	width: 100%;
+	height: auto;
+	line-height: 30px;
+	padding: 20px 0 20px 0;
+	text-align: center;
+	font-size: 34px;
+	color: #000000;
+	z-index: 50;
+}
+.firstMes {
+	position: absolute;
+	top: 90px;
+	display: block;
+	width: 100%;
+	height: auto;
+	line-height: 30px;
+	padding: 20px 0 10px 0;
+	text-align: center;
+	font-size: 22px;
+	color: #000000;
+	z-index: 50;
+}
+.firstMesTime {
+	position: absolute;
+	top: 130px;
+	display: block;
+	width: 100%;
+	height: auto;
+	line-height: 30px;
+	padding: 28px 0 0px 0;
+	text-align: center;
+	font-size: 18px;
+	color: #CCCCCC;
+	z-index: 50;
+}
+.rigMod {
+	position: relative;
+	width: 234px;
+	height: 110px;
+	margin: 0 0 5px 10px;
+	overflow: hidden;
+	/*background: #4a90e2;*/
+}
+.rigMod a:before{
+	background: none !important;
+}
+.topUl li div a:hover:before{
+    opacity: 0;
+}
+.rigMod img {
+	width: 234px;
+	height: 110px;
+}
+.showMes {
+	position: absolute;
+	display: block;
+	width: 100%;
+	top: 5px;
+	text-align: center;
+	font-size: 22px;
+	color: #fff;
+	z-index: 50;
+}
+.showMesSmall {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+}
+.mesTitle {
+	padding-left: 18px;
+	font-size: 12px;
+	color: #000000;
+	display: block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	width: 220px;
+	overflow: hidden;
+	height: 15px;
+	line-height: 15px;
+}
+.mesWriter {
+	color: #A2A2A2;
+	font-size: 11px;
+	display: block;
+	padding-left: 18px;
+	padding-bottom: 16px;
+}
+.mesWriter span {
+	font-size: 11px;
+}
+.practiceExamination {
+	font-size: 30px;
+	margin: 35px 0px -10px 0px;
+}
+.docListMod {
+	position: relative;
+	width: 355px;
+	height: 740px;
+	overflow: auto;
+}
+.doctorList {
+	width: 100%;
+	height: 165px;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.docHead {
+	width: 140px;
+	height: 165px;
+	overflow: hidden;
+	float: left;
+	margin-left: 25px;
+}
+docHead img {
+	width: 140px;
+	height: 165px;
+}
+.docMess {
+	width: 170px;
+	height: 165px;
+	overflow: hidden;
+	float: right;
+}
+.docMess h1 {
+	margin-top: 20px;
+	font-size: 18px;
+	color: #000000;
+	padding: 0 !important;
+	margin-bottom: 15px;
+}
+.docMess h1 small{
+	padding-left: 15px;
+}
+.docMess span {
+	font-size: 14px;
+	color: #333;
+	width: 100%;
+}
+.author{
+    width: 100%;
+    height: 38px;
+    line-height: 35px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+    vertical-align: middle;
+    position: relative;
+}
+/*.times{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+}*/
+.author a:hover{
+    color: #4a90e2;
+}
+/*.brief{
+    width: 100%;
+    height: 55px;
+}
+.brief p{
+    font-size: 14px;
+    color: #333 !important;
+    height: 60px;
+}
+.brief p a{
+    color: #5fb9d1;
+}
+.brief p a:hover{
+    color: #6dd5f1;
+}*/
+/*main-content*/
+.mainCont{
+    position: relative;
+    width: 100%;
+    height: auto;
+    /*background: #4a90e2;*/
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*left*/
+.leftCon{
+    position: relative;
+    width: 355px;
+    height: 795px;
+    float: left;
+    background: #fff;
+    overflow: hidden;
+    z-index: 10;
+    /*background: #ee82ee;*/
+}
+.leftCon h1{
+    font-size: 20px;
+    color: #333;
+    font-weight: normal;
+    padding:24px 0px 24px 24px;
+}
+/*right*/
+.rightCon{
+    width: 820px;
+    height: auto;
+    overflow: hidden;
+    /*background: #00AA91;*/
+    float: right;
+}
+.newsNavMod{
+    position: relative;
+    width: 820px;
+    /*min-height: 50px;*/
+    height: 50px;
+    line-height: 50px;
+    background: #f7f7f7;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    z-index: 50;
+}
+.navLists{
+    float: left;
+    width: 795px;
+    height: 60px;
+    overflow: hidden;
+    /*background: #ee82ee;*/
+}
+
+
+.newsList{
+    position: relative;
+    width: 780px;
+    height: 170px;
+    background: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    overflow: hidden;
+}
+.newsList div{
+    float: left;
+}
+.newsNavMod a{
+    float: left;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #666;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.newsNavMod a:hover{color: #3da9f7;}
+.newsNavMod a:before{
+    -webkit-transform: translate(0, -8px);
+    -ms-transform: translate(0, -8px);
+    transform: translate(0, -8px);
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background: #3da9f7;
+    content: " ";
+    display: block;
+    margin-top: -7px;
+    margin-left: -3px;
+}
+.newsNavMod a.active {
+    position: relative; /* background:#3da9f7; */
+    color: #fff;
+    background: #3da9f7;
+}
+.newsNavMod a.active:before{
+    opacity: 1;
+    -webkit-transition: all 0.3s ease 0.4s;
+    transition: all 0.3s ease 0.4s;
+    -webkit-transform: rotate(45deg) translate(0, 0);
+    -ms-transform: rotate(45deg) translate(0, 0);
+    transform: rotate(45deg) translate(0, 0);
+}
+.lis1{
+    width: 190px;
+    height: 170px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+.lis1 img{
+    width: 190px;
+    height: 170px;
+}
+.lis2{
+    width: 570px;
+    height: 150px;
+    overflow: hidden;
+    /*background: #000;*/
+}
+.lisUl{
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+/*title*/
+.newsTitle{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    color: #333;
+    -moz-transition: color .2s;	/* Firefox 4 */
+    -webkit-transition: color .2s;	/* Safari 和 Chrome */
+    -o-transition: color .2s;
+    transition: color .2s;
+}
+.newsTitle:hover{
+    color: #3da9f7;
+}

@@ -1,0 +1,202 @@
+.content{
+    width: 100%;
+    height: 270px;
+    line-height: 270px;
+    /*background:rgb(0,0,0,0.35);*/
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+.content:after{content: '';vertical-align: middle;}
+.content img{
+    vertical-align: middle;
+}
+.content2{
+    width: 100%;
+    height: auto;
+    background: rgba(255,255,255,0.57);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    padding-top: 70px;
+}
+.content_c{
+    width: 1200px;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.content_c img{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#doctorDow{
+    margin-bottom: 150px;
+}
+/*下载页面二次修改*/
+.topTitle{
+	float: left;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 67px 0px 0px 10px;
+}
+.totalContent{
+	width: 100%;
+	height: auto;
+	background: url(../images/icon/background.png) no-repeat right 0;
+	background-size: 830px 1092px;
+}
+.appContent{
+	width: 50%; 
+	float: left;
+}
+.appContent button{
+	width: 240px;
+	height: 60px;
+	line-height: 58px;
+	border-radius: 3px;
+	font-size: 18px;
+	background: #fff;
+	/*margin-bottom: 70px;*/
+}
+.downBtn1{
+	border: 1px solid #23C0A1;
+	color: #23C0A1;
+}
+.downBtn1:hover{
+	border: 1px solid #23C0A1;
+	color: #fff;
+	background: #23C0A1;
+}
+.downBtn2{
+	border: 1px solid #44AAF4;
+	color: #44AAF4;
+}
+.downBtn2:hover{
+	border: 1px solid #44AAF4;
+	color: #fff;
+	background: #44AAF4;
+}
+.downloadBac{
+	background: rgba(0,0,0,0.3);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	text-align: center;
+}
+.downloadWindow{
+	width:540px;
+	position: relative;
+	top: 300px;
+}
+.DLWClose{
+	position: absolute;
+	top: -5px;
+	right: -5px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-size: 30px 30px;
+}
+.DLWPop{
+	width: 525px;
+	height: 265px;
+	background: #fff;
+	overflow: hidden;
+}
+.DLWPop img{
+	width: 128px;
+	float: left;
+	margin: 0px 10px 20px 30px;
+}
+.DLPatientTitle{
+	width: 525px;
+	text-align: center;
+	font-size:18px;
+	color:#4FBFA7 ;
+	margin:20px 0px 25px 0px;
+}
+.DLPatientBorder{
+	border: 5px solid #4FBFA7;
+}
+.DLPatientClose{
+	background: url(../images/icon/close_2.png) no-repeat;
+}
+.DLDoctorBorder{
+	border: 5px solid #72b3ff;
+}
+.DLDoctorClose{
+	background: url(../images/icon/close_3.png) no-repeat;
+}
+.downloadCon{
+	width: 1200px;
+	padding-top: 40px;
+	text-align: left;
+}
+.downloadTab{
+	overflow: hidden;
+	width: 1200px;
+	text-align: left;
+}
+.downloadTab li{
+	font-size: 24px;
+	width: 150px;
+	height: 35px;
+	line-height: 33px;
+	float: left;
+	text-align: center;
+	color: #ccc;
+	border-bottom: #ccc solid 2px;
+}
+.downloadTab li:last-child{
+	width: 900px;
+}
+.downloadTab li.active{
+	border-bottom: #F5A623 solid 2px;
+	color: #F5A623;
+}
+.downloadChild{
+	width: 1140px;
+	padding: 0px 30px 30px 30px;
+	background: #fff;
+	margin-bottom: 52px;
+}
+.DLWindow{
+	width: 1140px;
+	overflow: hidden;
+	text-align: center;
+}
+.DLWindow table tr td{
+	width: 380px;
+}
+
+.DLWindow table tbody tr td img{
+	width: 200px;
+	margin: 10px 0px 10px 0px;
+}
+
+.DLWindow table th h3{
+	margin-top: 20px;
+	height: 40px;
+	line-height: 40px;
+	background-size: 35px 35px;;
+	padding-left: 30px;
+	font-size: 18px;
+}
+.iosIcon{
+	background: url(../images/icon/ios.png) no-repeat;
+	width: 100px;
+}
+.androidIcon{
+	background: url(../images/icon/android.png) no-repeat;
+	width: 150px;
+}
+.weiIcon{
+	background: url(../images/icon/weichat.png) no-repeat;
+	width: 150px;
+}
+#doctorApp{
+	display: none;
+}

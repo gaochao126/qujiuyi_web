@@ -1,0 +1,287 @@
+.crumbs{
+    width: 1200px;
+    height: 100px;
+    padding-left: 50px;
+    line-height: 100px;
+    /*border: 1px solid red;*/
+    background: url("../images/icon/address.png") no-repeat 20px;
+}
+.crumbs span{
+    font-size: 16px;
+}
+.crumbs span a{
+    color: #000;
+    font-size: 16px;
+}
+.content{
+    height: auto;
+    margin-bottom: 30px;
+}
+.con_item{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #4990e2;
+    background: #fff;
+}
+.item_tit{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    background: #4990e2;
+    padding-left: 20px;
+    font-size: 18px;
+    overflow: hidden;
+}
+.item_det{
+    width: 1150px;
+    height: auto;
+    /*background: #8fe29a;*/
+    padding: 15px 10px 15px 10px;
+    overflow: hidden;
+}
+.hos_img{
+    width: 100%;
+    height: auto;
+    /*background: #000;*/
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+.hos_img img{
+    width: 267px;
+    height: 267px;
+    margin-right: 35px;
+    float: left;
+    overflow: hidden;
+}
+.hos_mes{
+    float: left;
+    width: 700px;
+    height: 267px;
+    /*border: 1px solid red;*/
+    overflow: hidden;
+    /*padding-top: 15px;*/
+    position: relative;
+}
+.hos_mes span{
+    display: block;
+    height: 30px;
+    line-height: 25px;
+    margin-top: 20px;
+    padding-left: 25px;
+    font-size: 20px;
+}
+#hosAdd{
+    background: url("../images/icon/address.png") no-repeat;
+}
+#hosPhone{
+    background: url("../images/icon/hosPhone.png") no-repeat;
+}
+#domains{
+    background: url("../images/icon/website.png") no-repeat;
+}
+#domains a{
+    font-size: 20px;
+    color: #000;
+}
+#appointBtn{
+    width: 120px;
+    height: 50px;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    background: url("../images/icon/btn.png") no-repeat;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+.synopsis{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /*background: #59da86;*/
+    /*margin-top: 35px;*/
+}
+.synopsis h1{
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.synopsis h3{
+    font-size: 20px;
+    font-weight: normal;
+}
+.synopsis p{
+    text-indent: 2em;
+    /*height: 25px;*/
+    line-height: 35px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.department{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 30px 0 60px 0;
+    overflow: hidden;
+    border: 1px solid #4990e2;
+    background: #fff;
+}
+.depLis{
+    clear: both;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 10px 0 10px 0;
+}
+.depLis li{
+    float: left;
+    width: 191px;
+    height: 70px;
+    line-height: 70px;
+    vertical-align: middle;
+    font-size: 18px;
+    /*padding-left: 10px;*/
+    /*border: 1px solid red;*/
+    /*padding: 0 10px 0 10px;*/
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.depLis li a img{
+   vertical-align: middle;
+    margin-right: 10px;
+}
+.depLis li a{
+    display: inline-block;
+    /*border: 1px solid red;*/
+    height: 60px;
+    line-height: 60px;
+    width: auto;
+    max-width: 180px;
+    color: #000;
+    font-size: 18px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.depLis li a:hover{
+    border-bottom: 2px solid #658ab4;
+}
+.depLisAc{
+    border-bottom: 2px solid #658ab4;
+}
+
+/*医生列表*/
+.doctorLis{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    padding-bottom: 30px;
+    /*border: 1px solid #6f8aa8;*/
+}
+.docLis{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #e2e2e2;
+    overflow: hidden;
+}
+.docLis li{
+    float: left;
+    width: auto;
+    height: 100%;
+    padding: 0 20px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.docLisAct{
+    background: #4990e0;
+    color: #fff;
+}
+
+/*医生详情列表*/
+.doctorUl{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.doctorUl li{
+    float: left;
+    width: 525px;
+    height: 155px;
+    padding: 20px 0 15px 0;
+    margin-left: 50px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.doctorUl li div{
+    float: left;
+    margin-right: 10px;
+    height: 165px;
+    overflow: hidden;
+}
+
+/*医生头像*/
+.docHead{
+    width: 160px;
+}
+.docHead img{
+    width: 160px;
+    height: 165px;
+}
+
+/*医生信息*/
+.docMes{
+    width: 150px;
+    /*background: #009f95;*/
+}
+.docMes h1{
+    font-size: 18px;
+    font-weight: normal;
+    color: #4a90e2;
+    margin-top: 20px;
+}
+.docZw{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.docMes span{
+    display: block;
+    /*border: 1px solid red;*/
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.hosName{
+    margin-top: 60px;
+}
+/*医生职业生涯介绍*/
+.docPro{
+    float: left;
+    width: 195px;
+    height: 145px !important;
+    margin-right: 0 !important;
+    padding-top: 20px;
+}
+.docPro p{
+    font-size: 18px;
+    color: #bcbcbc;
+    line-height: 28px;
+}

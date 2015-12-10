@@ -1,0 +1,195 @@
+.medicalAssCon{
+    position: relative;
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/*left*/
+.assLeft{
+    position: relative;
+    float: left;
+    width: 355px;
+    height: auto;
+    overflow: hidden;
+}
+.assTit{width: 100%;height: auto;overflow: hidden;}
+.assTit li{
+    width: 100%;
+    height: 120px;
+    line-height: 120px;
+    background: #fff;
+    text-align: center;
+    font-size: 20px;
+    color: #444;
+    cursor: pointer;
+    /*border-bottom: 1px solid #f7731f;*/
+}
+
+/*right*/
+.assRig{
+    position: relative;
+    float: right;
+    width: 820px;
+    height: auto;
+    background: none;
+    text-align: center;
+}
+.assRig h1{
+    width: 745px;
+    height: 85px;
+    line-height: 85px;
+    background: #f77320;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    padding-left: 75px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: normal;
+    text-align: left;
+}
+.assRigCon{
+    width: 100%;
+    height: auto;
+    /*overflow: hidden;*/
+    background: #fff;
+    text-align: left;
+}
+.assRigCon h3{
+    position: relative;
+    font-size: 20px;
+    font-weight: normal;
+    color: #444;
+    margin-bottom: 25px;
+    /*border: 1px solid red;*/
+}
+.assRigCon h3 i{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    /*border: 1px solid red;*/
+    display: block;
+    left: -45px;
+    z-index: 10;
+    top: -5px;
+}
+.assRigCon h3 i img{background-size: cover;width: 36px;height: 36px;}
+.assRigCon1{
+    width: 770px;
+    height: auto;
+    padding: 25px;
+}
+.assRigCon1Con{
+    width: 720px;
+    height: auto;
+    overflow: hidden;
+    background: #f2f2f2;
+    padding: 25px;
+}
+.inputLis{
+    position: relative;
+    width: 50%;
+    height: auto;
+    min-height: 80px;
+    /*padding-bottom: 25px;*/
+    /*background: #008b8b;*/
+    float: left;
+}
+.inputLis span{
+    display: block;
+}
+.inputLis input{
+    width: 260px;
+    height: 35px;
+    line-height: 35px;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.inputLis select{
+    width: 270px;
+    height: 35px;
+    line-height: 35px;
+    outline: none;
+    border: 1px solid #e1e1e1;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+#cmbProvince{
+    width: auto;
+}
+#cmbCity{
+    width: auto;
+}
+#cmbArea{
+    width: auto;
+}
+#add_mes{
+    width: 95%;
+}
+.assRigCon2{
+    width: 770px;
+    height: auto;
+    padding: 25px;
+}
+.inputMods{
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: auto;
+    /*border: 1px solid red;*/
+}
+.desInp{
+    width: 670px;
+    height: auto;
+    /*border: 1px solid red;*/
+    border-radius: 3px;
+    padding: 25px;
+    margin-top: 10px;
+    background: #fff;
+    overflow: hidden;
+}
+#desInp{
+    width: 100%;
+    height: 285px;
+    outline: none;
+    border: none;
+}
+#addPic{
+    float: right;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    margin-top: 25px;
+    padding-left: 40px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: url("../../images/firstNAV/picture_add.png") no-repeat;
+}
+#subBtn{
+    width: 490px;
+    height: 100px;
+    line-height: 100px;
+    background: #f5a623;
+    color: #fff;
+    font-size: 36px;
+    margin-top: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.appMod{
+    width: 770px;
+    padding: 25px;
+}
+.appMod p{line-height: 30px;}
+.appMod ol{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.appMod ol li{margin-top: 10px;line-height: 25px;}
