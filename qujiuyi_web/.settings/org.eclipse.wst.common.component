@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="qujiuyi_web">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/config"/>
+        <dependent-module archiveName="qujiuyi_web_dto.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/qujiuyi_web_dto/qujiuyi_web_dto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="qujiuyi_web_dao.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/qujiuyi_web_dao/qujiuyi_web_dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="qujiuyi_web_service.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/qujiuyi_web_service/qujiuyi_web_service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="qujiuyi_patient_dto.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/qujiuyi_patient_dto/qujiuyi_patient_dto">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="qujiuyi_web"/>
+        <property name="java-output-path" value="/qujiuyi_web/build/classes"/>
+    </wb-module>
+</project-modules>

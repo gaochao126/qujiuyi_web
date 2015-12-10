@@ -1,0 +1,116 @@
+.crumbs{
+    width: 1200px;
+    height: 100px;
+    padding-left: 50px;
+    line-height: 100px;
+    /*border: 1px solid red;*/
+    background: url("../images/icon/address.png") no-repeat 20px;
+}
+.crumbs span{
+    font-size: 16px;
+}
+.crumbs span a{
+    color: #000;
+    font-size: 16px;
+}
+.content{
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.conTit{
+    width: 1198px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #6c89a9;
+    background: #ecf9ff;
+}
+.conTit p{
+    margin-left: 20px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.titCol{
+    color: #f6a624;
+    font-size: 16px;
+}
+/*医院列表*/
+.hosLisCon{
+    padding: 0 40px;
+    width: 1120px;
+    height: auto;
+    overflow: hidden;
+}
+.hosList{
+    width: 100%;
+    /*border: 1px solid red;*/
+    margin-bottom: 24px;
+}
+.hosList li{
+    border-bottom: 1px solid #e0e0e0;
+    padding: 25px 0;
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+.hosList li div{
+    float: left;
+    height: 200px;
+    overflow: hidden;
+}
+.hosHead{
+    width: 200px;
+}
+.hosHead img{
+    width: 200px;
+    height: 200px;
+}
+.hosMess{
+    margin-left: 20px;
+    width: 900px;
+    /*border-bottom: 1px solid red;*/
+}
+.hosMess h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.hosMess p{
+    margin-bottom: 5px;
+}
+.hosAdd{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+    background: url("../images/icon/address.png") no-repeat 1px;
+}
+.hosTel{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+    background: url("../images/icon/hosPhone.png") no-repeat 1px;
+}
+.hosWeb{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 30px;
+    background: url("../images/icon/website.png") no-repeat 1px;
+    /*border: 1px solid red;*/
+}
+.hosWeb a{
+    color: #000;
+}
+.hosInfo{
+    height: 50px;
+    line-height: 25px;
+    padding-left: 30px;
+    background: url("../images/icon/hosInfo.png") no-repeat 5px 5px;
+    /*border: 1px solid red;*/
+}
+.hosInfo a {
+    color: #4a90e2;
+}

@@ -1,0 +1,1293 @@
+.banner {
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+}
+.kf{
+    position: fixed;
+    display: block;
+    background: url("../images/index/consultant.png") no-repeat;
+    width: 32px;
+    height: 140px;
+    /*left: 50px;*/
+    /*float: right;*/
+    left:50%;
+    margin-left: 620px;
+    top:720px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+/*轮播css*/
+.focus{position: relative;width: 100%;height: 360px;}
+.focus img{ width: 100%; height: 360px;}
+.focus .fPic{ position:relative; left:0px; top:0px; }
+.focus .D1fBt{ overflow:hidden; zoom:1;  height:16px; z-index:10;  }
+.focus .fcon{ position:relative; width:100%; float:left;  display:none;  }
+.focus .fcon img{ display:block; }
+.focus .fbg{bottom:25px; position:absolute; width: 100%; height:21px; text-align:center; z-index: 200;}
+.focus .fbg div{display:inline-block;margin:4px auto 0;overflow:hidden;zoom:1;height:14px}
+.focus .D1fBt a{position:relative; display:inline; width:12px; height:12px; border-radius:7px; margin:0 5px;color:#B0B0B0;font:12px/15px "\5B8B\4F53"; text-decoration:none; text-align:center; outline:0; float:left; background:#D9D9D9; }
+.focus .D1fBt .current,.focus .D1fBt a:hover{background:#fc114a;}
+.focus .D1fBt img{display:none}
+.focus .D1fBt i{display:none; font-style:normal; }
+.focus .prev,.focus .next{position:absolute;width:40px;height:74px;background: url(../images/focus_btn.png) no-repeat;}
+.focus .prev{top: 50%;margin-top: -37px; left: 0;background-position:0 -74px; cursor:pointer; }
+.focus .next{top: 50%;margin-top: -37px; right: 0;  background-position:-40px -74px;  cursor:pointer;}
+.focus .prev:hover{  background-position:0 0; }
+.focus .next:hover{  background-position:-40px 0;}
+
+/*轮播完*/
+
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+
+/*登陆框*/
+.loginFrom {
+  position: absolute;
+  width: 275px;
+  height: 320px;
+  padding: 20px 0 2px 30px;
+  background: rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  top: 10px;
+  left: 0px;
+  z-index: 5;
+}
+
+.loginFrom h1 {
+    font-size: 20px;
+    font-weight: normal;
+    color: #fff;
+    line-height: 20px;
+    height:20px;
+}
+
+.input_mud {
+    width: 240px;
+    float: left;
+    height: 60px;
+    overflow: hidden;
+    /*background: #009f95;*/
+    /*border-bottom: 1px solid red;*/
+}
+
+.input_mud input {
+    width: 225px;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 15px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    color: #333;
+    float: left;
+}
+.input_mud p{
+	color:#fff;
+	line-height: 25px;
+	font-size: 12px;
+}
+#imgCodeInp {
+    width: 145px;
+    margin-right: 10px;
+}
+
+#imgCode {
+    display: block;
+    width: 70px;
+    height: 35px;
+    overflow: hidden;
+    /*background: #333;*/
+    float: left;
+    border-radius: 3px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#imgCode img {
+    width: 70px;
+    height: 35px;
+}
+
+.tips {
+    display: block;
+    width: 100%;
+    height: 25px;
+    padding-left: 15px;
+    line-height: 25px;
+    /*background: #333;*/
+    overflow: hidden;
+    /*color: red;*/
+    color: #1d6ac5;
+    font-size: 12px;
+}
+
+#forPwdBt {
+    display: block;
+    float: right;
+    line-height: 15px;
+    font-size: 12px;
+    color: #4a90e2;
+}
+
+#forPwdBt:hover {
+    text-decoration: underline;
+}
+
+#loginBtn {
+    width: 240px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #f5a623;
+    cursor: pointer;
+    transition: background .5s;
+    -moz-transition: background .5s; /* Firefox 4 */
+    -webkit-transition: background 5s; /* Safari and Chrome */
+    -o-transition: background .5s; /* Opera */
+}
+
+#loginBtn:hover {
+    background: #4a90e2;
+}
+
+/*登录成功*/
+.loginYesTop{
+    width: 260px;
+    height: 180px;
+    /*background: #009f95;*/
+    float: left;
+    border-bottom: 1px dashed #fff;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.loginYesTop p{
+    width: 150px;
+    float: left;
+    margin-left: 15px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color:#fff;
+}
+.loginYesTop p a{
+    color: #fff;
+    /*border: 1px solid red;*/
+    margin-left: 30px;
+}
+
+/*用户头像*/
+.userAvatar{
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+   /*  background: #c1c1c3; */
+    float: left;
+    margin-top: 45px;
+}
+.userAvatar img{
+    width: 85px;
+    height: 85px;
+    overflow: hidden;
+    border-radius:50%;
+}
+.loginYesLi{
+    clear: both;
+    height: 70px;
+    width: 270px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+.loginYesLi li{
+    float: left;
+    width: 85px;
+    height: 70px;
+    text-align: center;
+    border-right: 1px dashed #fff;
+}
+.loginYesLi li:last-child{
+    border: none;
+}
+.loginYesLi li a span{
+    display: block;
+    /*border: 1px solid red;*/
+    color: #fff;
+    margin-top: 5px;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    /*background: #333;*/
+}
+
+.contentLeft {
+    width: 900px;
+    height: auto;
+    overflow: hidden;
+    float: left;
+}
+
+.hospitalMod {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 40px;
+}
+
+.titMod {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    background: #f7f7f7;
+    color: #333;
+}
+.titMod span{
+    font-size: 30px;
+}
+
+.modCon {
+    width: 860px;
+    height: auto;
+    padding: 0 20px 0 20px;
+    overflow: hidden;
+    /*background: #17ff2d;*/
+    position: relative;
+}
+
+/*轮播*/
+.hosBan {
+    width: 810px;
+    height: 135px;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pointer {
+    position: absolute;
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    overflow: hidden;
+    top: 95px;
+}
+
+#leftArr {
+    left: 10px;
+    background: url("../images/index/chevronLeft.png") center;
+}
+
+#rightArr {
+    right: 10px;
+    background: url("../images/index/chevronRight.png") center;
+}
+
+.hosBan ul {
+    position: relative;
+    width: 99999999999999px;
+    height: 100%;
+}
+
+.hosBan ul li {
+    float: left;
+    width: 185px;
+    height: 135px;
+    overflow: hidden;
+    margin-right: 22px;
+    /*border-left: 1px solid red;*/
+}
+
+.hospitalMes {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*background: #333000;*/
+}
+
+.hospitalMes img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.hosTit {
+     position: relative;
+    display: block;
+    bottom: 35px;
+    width: 100%;
+    height: 35px;
+    background: rgba(0, 0, 0, 0.34);
+    line-height: 30px;
+    color: #fff;
+    /*text-align: center;*/
+    z-index: 1;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.hosNameLen{
+    position: relative;
+	display:block;
+	float:left;
+	width:auto;
+	max-width:65%;
+	height:100%;
+	/* border:1px solid red; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left:20px;
+}
+
+.three {
+	content:'三甲';
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    margin-left: 5px;
+    padding:0px 6px;
+    height: 16px;
+    line-height:16px;
+    overflow: hidden;
+    border-radius:3px;
+    color:#fff;
+    background: #F5A623;
+    font-size: 10px
+}
+
+.hosTit:hover {
+    text-decoration: underline;
+}
+/*轮播完*/
+
+/*区域选择*/
+.areaChoseDiv {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    /*margin-bottom: 500px;*/
+}
+
+.areaChose {
+    float: left;
+    width: 795px;
+    overflow: hidden;
+    color: #333;
+    margin-bottom: 10px;
+    /*background: #009f95;*/
+}
+
+.areaChose li {
+    width: 76px;
+    padding: 0 5px 0 5px;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align:center;
+    cursor: pointer;
+}
+
+.areaChose li:hover {
+    background: #4890e5  !important;
+    color:#fff !important;
+}
+
+#moreAreaBtn {
+    width: 65px;
+    height: 35px;
+    padding-left: 10px;
+    line-height: 35px;
+    border: none;
+    outline: none;
+    color: #fff;
+    /*background: #4890e5;*/
+    position: absolute;
+    right: 0;
+    text-align: left;
+    cursor: pointer;
+    border-radius:0px;
+}
+.moreAreaBtnBg1{
+    background: url("../images/index/arrow.png") no-repeat #4890e5 40px;
+}
+.moreAreaBtnBg2{
+    background: url("../images/index/contract.png") no-repeat #4890e5 40px;
+}
+
+.moreArea {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #ecf9ff;
+    display: none;
+    /*margin-top: 20px;*/
+}
+
+.moreArea li {
+    width: 76px;
+    padding: 0 5px 0 5px;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 2px;
+    text-align: center;
+}
+.moreArea li:hover{
+    background: #4a90e2;
+    cursor: pointer;
+    color:#fff;
+}
+
+.hospitalLis {
+    clear: both;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+}
+
+.hospitalLis ul {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 25px 0 23px 0;
+}
+
+.hospitalLis ul li {
+    float: left;
+    width: 285px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 3px;
+}
+
+.hospitalLis ul li a {
+    display: block;
+    width: 95%;
+    /*border: 1px solid red;*/
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.hospitalLis ul li a:hover {
+    color: #4990e2;
+    text-decoration: underline;
+}
+
+/*科室挂号*/
+.hosRoom {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 20px 0 20px 0;
+    color: #333;
+}
+
+.hosRoom li {
+    float: left;
+    width: 135px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    margin: 15px 2px 15px 0;
+    padding-right: 5px;
+}
+.hosRoom li a{
+    color: #333;
+}
+.hosRoom li:HOVER{
+    color: #008BF1;
+}
+
+.hosRoom li img {
+    float: left;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.hosRoom li a:hover {
+    color: #4a90e2;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*更多医生*/
+.moreMod {
+    color: #fff;
+    display: block;
+    float: right;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background: url("../images/icon/more.png") no-repeat 60px;
+}
+
+.moreMod:hover {
+    text-decoration: underline;
+}
+
+.doctorRec {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 35px 0 45px 0;
+    color:#333;
+}
+
+.doctorRec li {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 15px;
+    padding: 0 10px 0 10px;
+}
+
+.doctorRec li:hover {
+    background: #498fe4;
+    cursor: pointer;
+    color: #fff;
+}
+
+.docAc {
+    background: #498fe4;
+    color: #fff;
+}
+
+.recDoc {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /*background: #ee82ee;*/
+}
+
+.recDocLis {
+    float: left;
+    width: 160px;
+    height: 230px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 20px;
+    margin-right: 18px;
+    text-align: center;
+    padding: 20px 15px 15px 20px;
+    overflow: hidden;
+    transition: border .2s;
+    -moz-transition: border .2s; /* Firefox 4 */
+    -webkit-transition: border .5s; /* Safari and Chrome */
+    -o-transition: border .2s; /* Opera */
+}
+
+.recDocLis:hover {
+    cursor: pointer;
+    border: 1px solid #6e88a9;
+}
+
+.docImg {
+    width: 77px;
+    height: 88px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.docImg img {
+    width: 77px;
+    height: 88px;
+}
+
+.docCc {
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    /*vertical-align: middle;*/
+}
+
+.docCc p {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    color: #333;
+}
+
+.docTit {
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.docCc h6 {
+    width: 100%;
+    font-size: 12px;
+    font-weight: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+}
+
+.forte {
+    width: 100%;
+    height: 52px !important;
+    /* border: 1px solid red; */
+    margin-bottom: 5px;
+    text-align: left;
+    color:#333;
+  
+    
+}
+
+.forte p {
+    font-size: 11px;
+    line-height: 22px;
+}
+
+.shanchang {
+    color: #4a90e2;
+    font-size: 11px;
+}
+
+.regBtn {
+    width: 50px;
+    height: 20px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #f8a61e;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+/*健康资讯*/
+.mesUl {
+    float: right;
+    width: 800px;
+    height: 30px;
+    margin: 30px 0 20px 0;
+}
+
+.mesUl li {
+    position: relative;
+    float: left;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+.mesUlAct{
+    height: 38px !important;
+}
+
+.infoCon {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+.infoCon div {
+    width: 270px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    border: 1px solid #fff;
+    transition: border .2s;
+    -moz-transition: border .2s; /* Firefox 4 */
+    -webkit-transition: border .5s; /* Safari and Chrome */
+    -o-transition: border .2s; /* Opera */
+}
+.infoCon div:hover{
+    border: 1px solid #6e88a9;
+}
+
+.infoCon1 {
+    float: left;
+    background: #444444;
+}
+
+.infoCon2 {
+    display: inline-block;
+    margin-left: 23px;
+    background: #ee82ee;
+}
+
+.infoCon3 {
+    float: right;
+    background: #009f95;
+}
+.infoCon div img{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/*图片下面的文字信息*/
+.imgMess{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+    bottom: 0;
+}
+.imgMess a{
+    display: block;
+    width: 80%;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.imgMess a:hover{
+    text-decoration: underline;
+}
+
+/*友情链接*/
+.main_links {
+    width: 1160px;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.main_links hr{
+    height: 1px;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}
+
+.main_links h6 {
+    height: 45px;
+    line-height: 45px;
+}
+
+.main_link1 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+    margin: 20px 0;
+}
+
+.main_link1 li {
+    float: left;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    margin-right: 15px;
+    /*border-bottom: 1px solid red;*/
+}
+
+.main_link1 li img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main_link2 {
+    width: 100%;
+    /*border: 1px solid #333;*/
+    height: auto;
+    overflow: hidden;
+}
+
+.main_link2 li {
+    float: left;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    margin-right: 15px;
+    /*border-bottom: 1px solid red;*/
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.main_link2 li a {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.main_link2 li a:hover {
+    color: #4a90e2;
+}
+
+/*contentRight*/
+.contentRight {
+    width: 285px;
+    height: auto;
+    float: right;
+    margin-left: 15px;
+    overflow: hidden;
+    /*background: #ee82ee;*/
+}
+
+.contentRight hr {
+    color: #efefef;
+}
+
+.contentRight h6 {
+    width: 100%;
+    font-size: 14px;
+    height: 45px;
+    line-height: 45px;
+    color: #333;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.contentRight select {
+    border: 1px solid #ebf9ff;
+    outline: none;
+    border-radius: 3px;
+    padding-left: 10px;
+    background: #ebf9ff;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #4a4a4a;
+    cursor: pointer;
+}
+
+/*快速预约*/
+.quickReg {
+    width: 235px;
+    height: 315px;
+    background: #fff;
+    padding: 0 30px;
+    margin-top: 50px;
+}
+
+.quickReg select {
+    width: 215px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 5px;
+    background: #f8f8f8;
+    border: none;
+}
+
+.quickBtn {
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    color: #fff;
+    background: url("../images/icon/click.png") no-repeat 60px #f5a721;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/*最新签约*/
+.newContract {
+    width: 285px;
+    height: 150px;
+    overflow: hidden;
+    background: #fff;
+    background-size:cover;
+    margin-top: 30px;
+    position: relative;
+    padding-left: 20px;
+}
+.newContractTit{
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  color: #fff;
+  background: #f5a721;
+  margin-left: -20px;
+  padding-left: 20px;
+}
+.contractList{
+   margin-left: 20px;
+    margin-top: 10px;
+    float: left;
+}
+.contractList li{
+    list-style-type: square !important;
+    height: 26px;
+    line-height: 25px;
+    color: #6e92c2;
+    width: 230px;
+    /*overflow: hidden;*/
+    /*white-space: nowrap;*/
+    /*text-overflow: ellipsis;*/
+    /*border: 1px solid red;*/
+}
+.contractList li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+/*常见疾病*/
+.comDis {
+    width: 245px;
+    height: 216px;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+h6 a {
+    float: right;
+    display: block;
+    width: 60px;
+    /*border: 1px solid red;*/
+    height: 45px;
+    line-height: 45px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.26);
+    background: url("../images/icon/chevronRight.png") 50px no-repeat;
+}
+
+.comDisLis {
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    color: #333;
+}
+
+.comDisLis li {
+   
+    height: 20px;
+    line-height: 20px;
+    margin: 25px 7px 0 0;
+    background: #ecf9ff;
+    text-align: center;
+    float: left;
+}
+
+.comDisLis li:hover {
+    cursor: pointer;
+    background: #cddae0;
+}
+
+/*检验报告查询*/
+.queryDis {
+    width: 235px;
+    height: 260px;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 25px;
+    margin-top: 30px;
+}
+
+.queryDis select {
+    margin-top: 10px;
+}
+
+#queClass {
+    width: 220px;
+    height: 30px;
+}
+
+#QueNum {
+    width: 85px;
+    height: 30px;
+}
+
+#yourNum {
+    width: 115px;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    border: 1px solid #7089a8;
+    font-size: 12px;
+}
+
+#yourName {
+    width: 210px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 12px;
+    border: 1px solid #7089a8;
+    margin-top: 10px;
+}
+
+#queryBtn {
+    width: 220px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #f5a623;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.doctorColumn {
+    width: 235px;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 25px;
+    margin-top: 20px;
+}
+
+.doctorColLis {
+    width: 100%;
+    height: 265px;
+    overflow: hidden;
+    border: 1px solid #c6c6c6;
+    margin: 20px 0;
+    background: #f3f3f3;
+    position: relative;
+}
+
+.doctorColLis:hover {
+    border: 1px solid #6f88a7;
+    cursor: pointer;
+}
+
+.doctorColLis img {
+    width: 100%;
+    height: 215px;
+}
+.InterNum{
+    position: absolute;
+    width: 82px;
+    height: 74px;
+    z-index: 2;
+    right: 0;
+    top: -1px;
+    background: url("../images/index/cornerSymbol.png") no-repeat;
+}
+
+.colLis {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+   	text-align: center
+    /*background: #fa8072*/
+}
+.colLis p{
+	display:blcok;
+	height:20px;
+	line-height:20px;
+	width:90%;
+	font-size:12px;
+	overflow: hidden;
+ 	white-space: nowrap;
+  	text-overflow: ellipsis;
+  	margin-top:2px;
+  	color:#333;
+}
+.colLis p span{
+	font-size:12px;
+  	color:#333;
+}
+.columnDocName{
+  display: inline-block;
+}
+.columnDocClass{
+	margin-left: 14px;
+  display: inline-block;
+}
+
+.colLis div {
+    float: left;
+    margin-top: 7px;
+}
+
+.colLisLef {
+    width: 70px;
+    height: 35px;
+    border-right: 1px solid #6f6f6f;
+    text-align: right;
+    color:#333;
+}
+
+.colLisLef span {
+    display: block;
+    margin-right: 10px;
+}
+
+.colLisRight {
+    width: 140px;
+    /*background: #228b22;*/
+    height: 35px;
+    margin-left: 10px;
+    color:#333;
+}
+.codeMod{
+    width: 285px;
+    height: 195px;
+    background: #fff;
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: center;
+}
+.codeMod span{
+    display: block;
+    height: 25px;
+    line-height: 25px;
+}
+
+.loginYesLi li a img{
+    width: 36px;
+    height: 36px;
+}
+.mesUl a{
+	float: right;
+	margin-left: 20px;
+	line-height: 30px;
+	text-align: center;
+	width: 70px;
+	height: 30px;
+	display: inline-block;
+	padding: 3px 6px 3px 6px;
+	font-size: 14px;
+	color: #FFFFFF;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	margin-bottom: 20px;
+}
+.mesUl a:before {
+	-webkit-transform: translate(0, -8px);
+	-ms-transform: translate(0, -8px);
+	transform: translate(0, -8px);
+	opacity: 0;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 12px;
+	height: 12px;
+	content: " ";
+	display: block;
+	margin-top: -7px;
+	margin-left: -3px;
+}
+.mesUl a.active {
+	position: relative;
+	color: #fff;
+}
+.mesUl a.active:before {
+	opacity: 1;
+	-webkit-transition: all 0.3s ease 0.4s;
+	transition: all 0.3s ease 0.4s;
+	-webkit-transform: rotate(45deg) translate(0, 0);
+	-ms-transform: rotate(45deg) translate(0, 0);
+	transform: rotate(45deg) translate(0, 0);
+}
+.InfoName a {
+	
+	background: #55DABB;
+}
+.InfoName a:before {
+	background: #55DABB;
+}
+.InfoName a.active {
+	background: #55DABB;
+}
+.InfoName1 a {
+	
+	background: #E7B0F1;
+}
+.InfoName1 a:before {
+	background: #E7B0F1;
+}
+.InfoName1 a.active {
+	background: #E7B0F1;
+}
+
+.InfoName2 a {
+	background: #77B6FF;
+}
+.InfoName2 a:before {
+	
+	background: #77B6FF;
+	
+}
+.InfoName2 a.active {
+	background: #77B6FF;
+}
+.InfoName3 a {
+	background: #FFB0CF;
+}
+.InfoName3 a:before {
+	
+	background: #FFB0CF;
+	
+}
+.InfoName3 a.active {
+	background: #FFB0CF;
+}
+.InfoName4 a {
+	background: #77B6FF;
+}
+.InfoName4 a:before {
+	
+	background: #77B6FF;
+	
+}
+.InfoName4 a.active {
+	background: #77B6FF;
+}
+.InfoName5 a {
+	background: #FFAD6B;
+}
+.InfoName5 a:before {
+	
+	background: #FFAD6B;
+	
+}
+.InfoName5 a.active {
+	background: #FFAD6B;
+}
+button{
+	border-radius:3px;
+}

@@ -1,0 +1,352 @@
+body {
+	height: 1017px;
+	/*background: url("../images/reg/BG_pic.png") center;*/
+	background: #fff;
+	background-size: cover;
+	font-size: 16px;
+	/*overflow: hidden;*/
+}
+.totalCon{
+	width: 100%;
+	height: 648px; 
+	/* border: red solid thin;  */
+}
+
+.content {
+	overflow: hidden;
+	padding-top: 40px;
+}
+.leftMod{
+	height: 313px;
+	line-height: 408px;
+	float: left;
+	margin-top: 25px;
+}
+.regMod {
+	width: 345px;
+	height: auto;
+	/*float: right;
+	margin-right: 30px;*/
+	padding: 36px 30px 50px 30px;
+	overflow: hidden;
+	border: solid 1px #ccc;
+	box-shadow: 1px 1px 3px #ccc;
+}
+.regMod h1 {
+	color: #000;
+	font-size: 24px;
+	margin-bottom: 48px;
+	/*border: 1px solid red;*/
+}
+.regMod h1 a {
+	font-weight: normal;
+	font-size: 16px;
+	float: right;
+	margin-top: 10px;
+	color: #16AFD1;
+}
+.regMod h1 a:hover {
+	text-decoration: underline;
+}
+.input_mod {
+	width: 345px;
+	height: 70px;
+	/*background: #8C8C8C;*/
+	
+	overflow: hidden;
+}
+.input_mod input {
+	width: 300px;
+	height: 34px;
+	line-height: 34px;
+	padding-left: 40px;
+	border: 1px solid #16AED1;
+	font-size: 14px;
+	outline: none;
+	border-radius: 3px;
+	margin: 0px;
+}
+.tips {
+	clear: both;
+	display: block;
+	/*border: 1px solid red;*/
+	width:300px;
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	padding-left: 40px;
+	color: #16AED1;
+}
+#userName {
+	background: url("../images/icon/phone.png") no-repeat 5px #fff;
+}
+#password {
+	background: url("../images/icon/img_07.png") no-repeat 5px #fff;
+}
+#rePwd {
+	background: url("../images/icon/img_07.png") no-repeat 5px #fff;
+}
+#phoneNum {
+	float: left;
+	width: 180px;
+	border-radius: 2px 0 0 2px;
+	background: url("../images/icon/phone.png") no-repeat 5px #fff;
+}
+#sendCode {
+	float: left;
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #16AFD1;
+	font-size: 14px;
+	border-radius: 0 3px 3px 0;
+}
+#sendCode:hover {
+	cursor: pointer;
+	opacity:0.87;
+	text-decoration: underline;
+}
+#mesCode {
+	width: 210px;
+	float:left;
+	padding-left: 10px;
+	border-radius:3px 0px 0px 3px;
+}
+.input_log {
+	width: 340px;
+	height: 30px;
+	line-height: 30px;
+	color: #8092a0;
+	overflow: hidden;
+	text-align: right;
+	/*border: 1px solid red;*/
+}
+.input_log a {
+	color: #16AFD1;
+}
+.input_log a:hover {
+	text-decoration: underline;
+}
+#reg_btn {
+	margin-top: 10px;
+	width: 330px;
+	height: 36px;
+	line-height: 36px;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	background: #16AFD1;
+}
+#reg_btn:hover {
+	cursor: pointer;
+	opacity:0.87;
+}
+.regShadow{
+	margin-top: 15px;
+	width:413px;
+	height:65px;
+	line-height:65px;
+	overflow: hidden;
+	background: url("../images/reg/form_shadow.png");
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.docRigTitle{
+	float: right; font-size: 18px; margin-top: 60px;margin-right: 20px;
+}
+/*医生注册*/
+
+.stepCon {
+	overflow: hidden;
+	border-bottom: solid 2px #ccc;
+	text-align: center;
+	padding-bottom: 5px;
+}
+.stepCon ul {
+	width: 700px;
+}
+.stepCon ul li {
+	float: left;
+	font-size: 16px;
+	width: 220px;
+	text-align: center;
+	margin-bottom: -1px;
+	color: #ccc;
+}
+.stepCon ul li span {
+	border-radius: 50%;
+	color: #fff;
+	background: #ccc;
+	padding: 1px 7px 1px 7px;
+	line-height: 25px;
+	border: solid 1px #ccc;
+}
+.stepCon ul li.active {
+	color: #F5A623;
+}
+.stepCon ul li.active span{
+	background: #F5A623;
+	border: solid 1px #F5A623;
+}
+/*医生注册内容部分*/
+
+.docRigCon {
+	width: 1200px;
+	overflow: hidden;
+	padding-top: 40px;
+	text-align: center;
+}
+.phoneRig {
+	width: 450px;
+	overflow: hidden;
+}
+.docRigInput{
+	width: 350px;
+	height: 70px;
+	overflow: hidden;
+	font-size: 14px;
+}
+.docRigInput input {
+	width: 338px;
+	height: 34px;
+	line-height: 20px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	outline: none;
+	border-radius: 3px;
+	padding-left: 10px;
+	margin: 0px;
+}
+.docRigInput input:focus {
+	border-color: #F5A623;
+}
+#mesCode2 {
+	width: 218px;
+	float: left;
+	padding-left: 10px;
+	border-radius: 3px 0px 0px 3px;
+}
+#sendCode2 {
+	float: left;
+	width: 120px;
+	height: 36px;
+	line-height: 36px;
+	border: none;
+	outline: none;
+	color: #fff;
+	background: #F5A623;
+	font-size: 14px;
+	border-radius: 0 3px 3px 0;
+	border: solid 1px #F5A623;
+}
+#sendCode2:hover {
+	cursor: pointer;
+	/*background: #16ABD1;*/
+	text-decoration: underline;
+}
+.docRigAttention{
+	width: 340px;
+	overflow:hidden;
+}
+.docRigAttention label{
+	float: left;
+	color: rgba(0,0,0,0.87);
+	font-size: 12px;
+	overflow: hidden;
+	
+}
+.docRigAttention span{
+	font-size: 12px !important;
+	float: right;
+}
+.docRigAttention span a{
+	color: #F5A623;
+}
+.docRigAttention a{
+	font-size: 12px !important;
+}
+.docRigAttention a:hover{
+	text-decoration: underline;
+}
+.stepAllSub{
+	margin-top: 30px;
+	width: 350px;
+	border: none;
+	border-radius: 3px;
+	background: #F5A623;
+	color: #fff;
+	font-size: 18px;
+	line-height: 36px;
+}
+/*第二步，填写验证信息*/
+.phoneRig table{
+	width: 440px;
+}
+.phoneRig table tbody tr{
+	height: 60px;
+}
+.phoneRig table tbody tr td{
+	text-align: left;
+	vertical-align: top;
+	/* line-height: 34px; */
+}
+.phoneRig table tbody tr td div{
+	margin-top: 30px;
+  	margin-bottom: 10px;
+}
+.phoneRig table tbody tr td div img{
+	max-width:300px; 
+}
+.phoneRig table tbody tr td input{
+	width: 300px;
+	height: 34px;
+	line-height: 20px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	outline: none;
+	border-radius: 3px;
+	padding-left: 10px;
+	margin: 0px;
+}
+.phoneRig table tbody tr td button{
+	width: 220px;
+	border:none;
+	border-radius: 3px;
+	height: 34px;
+}
+.phoneRig table tbody tr:nth-child(3) select{
+	width: 145px;
+	height: 34px;
+	line-height: 20px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	outline: none;
+	border-radius: 3px;
+}
+.phoneRig table tbody tr:nth-child(4) select{
+	width: 314px;
+	height: 34px;
+	line-height: 20px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	outline: none;
+	border-radius: 3px;
+}
+/*输错提示*/
+.inputHint {
+	float: left;
+	padding-top: 5px;
+	font-size: 12px;
+	color: #F5A623;
+}
+.phoneRig h3 {
+	font-weight: normal;
+	color: #37C832;
+	position: relative;
+	font-size: 30px;
+}

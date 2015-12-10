@@ -1,0 +1,532 @@
+.mainCon{
+	width: 1200px;
+	position: relative;
+	height: auto;
+	overflow: hidden;
+}
+ul{list-style: none;}
+/*--- 个人中心 ---*/
+/*个人中心容器*/
+.userCCon{
+	margin-top: 30px;
+	overflow: hidden;
+	background: #fff;
+	margin-bottom: 40px;
+}
+.userCConLeft {
+	float: left;
+	width: 185px;
+	height: 100%;
+	background-color: #F9F9F9;
+	border-right: solid 1px #EEEEEE;
+}
+.userCConRigght{
+	float: right;
+	width: 1014px;
+}
+/*左边*/
+.userCHead{
+	width: 100%;
+	height: 130px;
+	text-align: center;
+}
+.userCHead img{
+	border-radius: 50%;
+	width: 78px;
+	height: 78px;
+	margin: 10px;
+}
+.userCHead span{
+	width: 100%;
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	display: block;
+}
+.userCNav{}
+.titleBorder{
+	border-top: solid #EEEEEE 1px;
+	padding: 20px 0px 10px 0px;
+}
+.userCNav li{
+	overflow:hidden;
+	width: 100%;
+}
+.userCNav li img{
+	width: 15px;
+	height: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+}
+.userCNav li h3{
+	margin-top: -3px;
+	float: left;
+	font-size: 16px;
+	color: #C8C8C8;
+	font-weight: normal;
+}
+.userCNav li a{
+	padding-left: 56px;
+	font-size: 14px;
+	line-height: 40px;
+	color: #333;
+	display: block;
+}
+.userCNav li a:hover{
+	background: #F1A221;
+	color: #fff;
+}
+/*选中之后的颜色效果*/
+.chooseItem{
+	background: #DA8800;
+	color: #fff !important;
+}
+.userCNav li a span{
+	color: #fff;
+	background: #F7A624;
+	border-radius: 10px;
+	padding: 0px 5px 0px 5px;
+	font-size: 12px;
+}
+.lastItem{
+	margin-bottom: 10px;
+}
+/*右边*/
+.userRigTitle{
+	background: #F9F9F9;
+	height: 60px;
+	border-bottom: 1px solid #EEEEEE;
+}
+.userRigTitle h3{
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 60px;
+	display: block;
+	padding-left: 20px;
+}
+.changeContent{
+	width:975px ;
+	padding:20px;
+}
+.serviceItem{
+    position: relative;
+    width: 975px;
+    /*min-height: 50px;*/
+    height: 51px;
+    line-height: 51px;
+    background: #f7f7f7;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    z-index: 50;
+    margin-right: 20px !important;
+    border-bottom: solid 1px #EEEEEE;
+}
+.navLists{
+    float: left;
+    width: 795px;
+    height: 61px;
+    overflow: hidden;
+}
+.serviceItem a{
+    float: left;
+    line-height: 50px;
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 16px;
+    color: #666;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+.serviceItem a:hover{color: #3da9f7;}
+.serviceItem a:before{
+    -webkit-transform: translate(0, -8px);
+    -ms-transform: translate(0, -8px);
+    transform: translate(0, -8px);
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 12px;
+    height: 12px;
+    background: #3da9f7;
+    content: " ";
+    display: block;
+    margin-top: -7px;
+    margin-left: -3px;
+}
+.navLists a.active {
+    position: relative; /* background:#3da9f7; */
+    color: #fff;
+    background: #3da9f7;
+}
+.navLists a.active:before{
+    opacity: 1;
+    -webkit-transition: all 0.3s ease 0.4s;
+    transition: all 0.3s ease 0.4s;
+    -webkit-transform: rotate(45deg) translate(0, 0);
+    -ms-transform: rotate(45deg) translate(0, 0);
+    transform: rotate(45deg) translate(0, 0);
+}
+/*table*/
+.tableDataCon{
+	position: relative;
+    width: 975px;
+    margin-top: 30px;
+}
+.tableDataCon table{
+	width: 100%;
+	text-align: center;
+	border-top: solid 1px #EFEFEF;
+	font-size: 14px;
+}
+
+.tableDataCon table thead tr th{
+	font-weight: lighter;
+	line-height: 39px;
+	height: 39px;
+	background: #f7f7f7;
+	border: none;
+	border-bottom: solid 1px #EEEEEE;
+}
+.tableDataCon table tbody tr td{
+	height: 95px;	
+	border-bottom: solid 1px #EFEFEF;
+}
+.tableDataCon table tr:nth-child(even){
+	background: #f7f7f7;
+}
+.tableDataCon table tr:nth-child(odd){
+	background: #fff;
+}
+.servicePrice{
+	color: #F2A121;
+}
+/*操作栏的第一种情况*/
+.tableDataCon table tr td:nth-last-child(1) {
+	width: 105px;
+	padding-left: 20px;
+}
+.tableDataCon td p {
+	overflow: hidden;
+	line-height: 25px;
+	height: 25px;
+}
+.tableDataCon td p img {
+	float: left;
+	height: 15px;
+	margin: 0px 5px 0px 0px;
+}
+.tableDataCon td p a {
+	color: rgba(0, 0, 0, 0.87);
+	float: left;
+	margin-top: -3px;
+}
+/*操作栏的第二种情况*/
+.operateTd{
+	width: 200px !important;
+	padding: 0px !important; 
+}
+.operateTd a{
+	color: rgba(0, 0, 0, 0.87);
+	margin-top: -3px;
+}
+.operateTd img{
+	height: 15px;
+	margin: 0px 5px 0px 0px;
+}
+.tableBlueColor{
+	color: #3DA9F7 !important;
+}
+/*评价*/
+
+.toBeEvaItem {
+	width: 915px;
+	padding: 0px 30px 20px 30px;
+	border-bottom: solid 1px #EFEFEF;
+	overflow: hidden;
+}
+.EvaDocInfo {
+	overflow: hidden;
+}
+.EvaDocInfo img {
+	width: 80px;
+	height: 90px;
+	float: left;
+	margin-right: 20px;
+}
+.EvaDocInfo div {
+	float: left;
+	padding-top: 10px;
+}
+.EvaDocInfo div p {
+	color: rgba(0, 0, 0, 0.87);
+	font-size: 14px;
+	line-height: 22px;
+}
+.EvaDocInfo div p span {
+	color: #4a90e2;
+}
+.toBeEvaItem a {
+	float: right;
+	color: #48A2F6;
+	display: none;
+}
+.toBeEvaItem section {
+	margin-top: 20px;
+	overflow: hidden;
+}
+.toBeEvaItem section div {
+	float: left;
+	text-align: right;
+	padding-top: 10px;
+	margin-right: 20px;
+	/*width: 88px;*/
+}
+.toBeEvaItem section div p {
+	font-size: 14px;
+	line-height: 22px;
+}
+.toBeEvaItem section div p span {
+	color: red;
+}
+.lightGray {
+	color: rgba(0, 0, 0, 0.57);
+	;
+}
+.toBeEvaItem section img {
+	float: left;
+	height: 68px;
+	margin-right: 40px;
+}
+.toBeEvaItem section section {
+	width: 342px;
+	float: left;
+	text-align: center;
+}
+.inputEva {
+	width: 340px;
+	height: 140px;
+	border: 1px solid #16AED1;
+}
+.chooseAnonymous {
+	width: 342px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: left;
+	float: left;
+}
+.submitEva {
+	width: 100px;
+	height: 36px;
+	border: none;
+	color: #fff;
+	border-radius: 3px;
+	background: #16AED1;
+	font-size: 16px;
+}
+#fillEva{
+	display: none;
+}
+/*收藏医生*/
+.docInteraction{
+	height: 75px !important; 
+	text-align: left;
+}
+/*修改密码*/
+.userRigType2{
+	position: relative;width: 975px; border: solid 1px #EEEEEE;
+}
+.userRigType2 h3{
+	font-size:16px; font-weight: normal; padding:10px;background: #F9F9F9;
+}
+.rigType2Con{
+	/*text-align: left;*/
+}
+.rigType2Con table{
+	width: 400px;
+	margin: 20px 30px 30px 30px;
+	font-size: 14px;
+}
+.rigType2Con table tr td{
+	padding-top: 10px;
+}
+.rigType2Con table tr td:first-child{
+	width: 80px;
+	text-align: right;
+	padding-right: 20px;
+	vertical-align: top;
+}
+.rigType2Con table tr td input{
+	width: 200px;
+	border: 1px solid #16AED1;
+	border-radius: 3px;
+	line-height: 25px;
+	height: 30px;
+	padding-left: 10px;
+}
+.rigType2Con table tr td p{
+	color: #16ABD1;
+}
+.saveEdite{
+	width: 80px; color: #fff; background: #F5A623; border: none; border-radius: 3px; line-height: 30px;margin:0px 0px 30px 180px;
+}
+
+table {
+    border-collapse: collapse;
+}
+/*账户设置*/
+.rigType2Con table tr td select{
+	width: 213px;
+	border: 1px solid #16AED1;
+	border-radius: 3px;
+	line-height: 25px;
+	height: 30px;
+	padding-left: 10px;
+}
+/*管理就诊人*/
+.addPatient{
+	float: right !important; 
+	font-size: 14px; 
+	margin-right: 20px;
+}
+.operateTd{
+	width: 200px !important;
+	padding: 0px !important; 
+}
+.operateTd a{
+	color: rgba(0, 0, 0, 0.87);
+	margin-top: -3px;
+}
+.operateTd img{
+	height: 15px;
+	margin: 0px 5px 0px 0px;
+}
+.popBorder{
+	border: 5px solid #72b3ff;
+}
+.popCon{
+	width: 505px;
+	margin: 20px;
+}
+.popCon h3{
+	font-size: 16px;
+	font-weight: normal;
+	color:#72b3ff ;
+}
+.addPatientHint{
+	padding: 15px 20px 20px 20px;
+	line-height: 22px;
+	color: red;
+	border-bottom: solid 1px #ccc;
+}
+.addPatientTable{
+	width: 500px;
+	margin-top: 20px;
+}
+.addPItemName{
+	width: 140px;
+	text-align: right;
+	line-height: 45px;
+	float: left;
+}
+.addPItemName span{
+	color: red;
+/*	padding-right: 5px;*/
+}
+.addPItemDetail{
+	padding-left: 20px;
+	width: 300px;
+	line-height: 45px;
+	float: left;
+}
+.addPinput{
+	width: 200px;
+	border: solid #ccc 1px;
+	height: 30px;
+	line-height: 30px;
+}
+.setDefault{
+	text-align: center;
+	
+}
+.setDefault label{
+	line-height: 45px;
+	color: #72b3ff;
+}
+/*我的钱包*/
+.myWalletTitle {
+	/*background: #F9F9F9;*/
+	height: 130px;
+	border-bottom: 1px solid #EEEEEE;
+}
+.myWalletTitle h3 {
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 60px;
+	padding-left: 20px;
+}
+.myWalletTitle h3 small{
+	padding-left: 10px;
+	color: red;
+	font-size: 18px;
+}
+.withdrawalsRule{
+	float: right;
+	margin-right: 20px;
+	color: #4A90E2;
+}
+.myWalletTitle div{
+	display: block;
+}
+.myWalletBtn{
+	width: 95px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 16px;
+	margin-left: 20px;
+}
+.btnOrange{
+	background: #F1A322;
+}
+.btnBlue{
+	background: #3da9f7 ;
+}
+.btnGray{
+	background: #ccc;
+}
+.firstTh{
+	width: 200px;
+}
+/*提现*/
+.showBalance{
+	display: block;
+	line-height: 40px;
+	font-size: 14px;
+}
+.showBalance span{
+	padding-left: 15px;
+	color: red;
+	font-size: 18px;
+}
+.withdrawalsItem{
+	display: block;
+	line-height: 40px;
+	font-size: 14px;
+}
+.withdrawalsItem button{
+	margin-left: 80px;
+	width: 150px !important;
+}
+.amountOfMoney{
+	width: 200px;
+	border: 1px solid #16AED1;
+	border-radius: 3px;
+	line-height: 25px;
+	height: 30px;
+	padding-left: 10px;
+}

@@ -1,0 +1,194 @@
+.VIPCon {
+	position: relative;
+	width: 1200px;
+	height: auto;
+	/*background: #ff8c00;*/
+	
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+/*left*/
+
+.VIPLeft {
+	position: relative;
+	float: left;
+	width: 820px;
+	height: auto;
+	overflow: hidden;
+}
+.VIPRight {
+	float: right;
+	width: 355px;
+	height: auto;
+	overflow: hidden;
+}
+.VIPLeftTop {
+	width: 772px;
+	padding: 24px;
+	background: #EEFCFF;
+	color: #00AADA;
+	font-size: 16px;
+}
+.VIPLeftCon {
+	width: 772px;
+	padding: 24px 24px 43px 24px;
+	color: #000000;
+	font-size: 16px;
+	background: white;
+}
+.VIPLeftCon h3 {
+	font-size: 30px !important;
+	font-weight: lighter;
+}
+.VIPLeftConCon {
+	margin-top: 14px;
+	font-size: 16px;
+}
+.VIPLeftService {
+	margin-top: 22px;
+	overflow: hidden;
+}
+.VIPLeftServiceItem {
+	width: 228px;
+	height: 94px;
+	border: solid 1px;
+	padding: 22px 0px 11px 16px;
+	float: left;
+	overflow: hidden;
+}
+.ServiceItemYellow {
+	border-color: #FF9F00;
+}
+.ServiceItemRed {
+	border-color: #FF6B6B;
+}
+.ServiceItemBlue {
+	border-color: #00C7F9;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+.ServiceItemGreen {
+	border-color: #00CC5A;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+.ServiceName {
+	margin-left: 12px;
+	margin-top: 13px;
+	font-size: 16px;
+	float: left;
+}
+.ServiceName span {
+	display: block;
+	color: #919191;
+	padding-top: 7px;
+	font-size: 14px;
+}
+.ServiceImg {
+	float: left;
+}
+.VIPRightTop {
+	padding: 24px;
+	background-color: white;
+	overflow: hidden;
+}
+.VIPRightTop h3 {
+	font-size: 20px;
+	font-weight: normal;
+}
+.VIPRightTopExpress {
+	margin-top: 30px;
+	overflow: hidden;
+}
+.ExpressIcon {
+	width: 79px;
+	height: 79px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+	position: relative;
+}
+.ExpressIconExam {
+	background: url(../../images/VIPService/icon_appointment.png);
+}
+.ExpressIconArchives {
+	margin: 0px 34px 0px 34px;
+	background: url(../../images/VIPService/icon_files.png);
+}
+.ExpressIconConsultation {
+	background: url(../../images/VIPService/handle_consultion.png);
+}
+.ExpressIconName {
+	width: 100%;
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	/*opacity: 0.16;*/
+	
+	background: rgba(0, 0, 0, 0.16);
+	color: white;
+	text-align: center;
+}
+.VIPRightBottom {
+	margin-top: 30px;
+	padding: 24px;
+	background-color: white;
+	overflow: hidden;
+}
+.VIPRightBottom h3 {
+	font-size: 20px;
+	font-weight: normal;
+}
+.VIPRightBotCon{
+	margin-top: 15px;overflow: hidden;
+}
+.VIPRightBotName{
+	display: block; width: 100%;color: #919191;font-size: 14px;
+}
+.VIPRightSelect {
+	margin: 7px 0px 15px 0px;
+	padding: 5px 5px 5px 15px;
+	border-radius: 3px;
+	border-color: #CCCCCC;
+	font-size: 16px;
+}
+.selectOne{
+	width: 100%;
+}
+.selectTwo{
+	width: 45%;
+	float:left;
+}
+.waveLine{
+	width: 10%; 
+	text-align: center;
+	float: left;
+	font-size: 20px; 
+	padding-top: 10px;
+}
+/*价格区间*/
+.priceSection{
+	overflow:hidden;
+}
+.screenBtn{
+	margin-top: 13px; 
+	margin-bottom: 25px;
+	width: 100%; 
+	height: 36px; 
+	border: none; 
+	background: rgb(245,166,35); 
+	color: #FFFFFF;
+}
+.ScreenResult{
+	padding-top: 3px;
+	display: block; 
+	width: 100%;
+	font-size: 20px;
+}
+.noResult{
+	color: #CCCCCC;
+}
+.finalResult{
+	color: #E25714;
+}

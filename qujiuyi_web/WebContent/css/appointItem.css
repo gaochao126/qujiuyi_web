@@ -1,0 +1,437 @@
+.crumbs{
+    width: 1200px;
+    height: 100px;
+    padding-left: 50px;
+    line-height: 100px;
+    /*border: 1px solid red;*/
+    background: url("../images/icon/address.png") no-repeat 20px;
+}
+.crumbs span{
+    font-size: 16px;
+}
+.crumbs span a{
+    color: #000;
+    font-size: 16px;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    margin-bottom: 50px;
+}
+.conTit{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #e0e0e0;
+}
+.conTit span{
+    font-size: 20px;
+    margin-left: 25px;
+    color: #212121;
+}
+.docHeadUl{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding: 35px 0;
+}
+.docHeadUl li{
+    float: left;
+    height: 160px;
+    overflow: hidden;
+    /*padding: 35px 0;*/
+    /*border: 1px solid red;*/
+    margin-bottom: 15px;
+    position: relative;
+}
+
+/*医生头像*/
+.docHead{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 1;
+    margin-left: 25px;
+    /*border: 1px solid red;*/
+}
+.docHead img{
+    width: 145px;
+    height: 145px;
+    z-index: -5;
+}
+.docHead span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 155px;
+    height: 155px;
+}
+/*普通医生*/
+.headBg{
+    background: url("../images/doctorInfo/headborder.png") no-repeat;
+}
+/*791认证医师*/
+.headCloudBg{
+    background: url("../images/doctorInfo/headborder_cloud.png") no-repeat;
+}
+
+.docMes{
+    width: 530px;
+    padding-left: 25px;
+}
+.docMes h1{
+    font-size: 24px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 10px 0 30px 0;
+    height: 30px;
+    line-height: 30px;
+}
+.docClass{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54);
+    margin-left: 10px;
+}
+.docMes span{
+    /*border: 1px solid red;*/
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.appointMes{
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+}
+.appointMes span{
+    position: relative;
+    display: block;
+    /*border: 1px solid red;*/
+    bottom: 0;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.54);
+}
+.appointMes span:first-child{
+    margin-top: 95px;
+}
+.appointMes span strong{
+    color: red;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+/*常用就诊人*/
+.userList{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.userListTit{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 40px;
+    background: #f9f9f9;
+    border-bottom: 1px solid #dbdbdb;
+}
+.userListTit span{
+    margin-left: 25px;
+    font-size: 16px;
+}
+.addBtn{
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    color: #4a90e2;
+}
+
+/*就诊人列表*/
+.userListTab{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    height: auto;
+    border: 1px solid #eee;
+    border-left: none;
+    border-right: none;
+    margin-top: 15px;
+    /*background: #ecf9ff;*/
+    text-align: center;
+    margin-bottom: 50px;
+}
+.userListTab tr td:last-child{
+    width: 200px;
+}
+.userListTab thead tr th{
+    height: 40px;
+    background: #f9f9f9;
+}
+.userListTab tbody tr td{
+    height: 95px;
+    border-bottom: 1px solid #eee;
+}
+.userListTab tbody tr td button{
+    width: 60px;
+    height: 30px;
+    padding-left: 15px;
+    line-height: 30px;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.updateBtn{
+    background: url("../images/doctorInfo/updateBtn.png") 5px no-repeat;
+}
+.delBtn{
+    background: url("../images/doctorInfo/delBtn.png") 5px no-repeat;
+}
+.userListTab tbody tr td input{
+    margin-right: 10px;
+    border: none;
+    outline: none;
+}
+
+.subMod{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    overflow: hidden;
+    margin-bottom: 60px;
+    position: relative;
+}
+.subMod span{
+    position: absolute;
+    left: 60px;
+    top: 0;
+}
+.subMod span input{
+    margin-right: 10px;
+    width: 12px;
+    height: 12px;
+    background: #000;
+}
+.subMod span a{
+    color: #4a90e2;
+}
+/*提交*/
+.subBtn{
+    width: 220px;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    background: #4a90e2;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/*添加*/
+.addMod{
+    /*height: 500px;*/
+    padding: 20px;
+    overflow: hidden;
+}
+.tipsBtn{
+    font-size: 20px;
+    color: #4a90e2;
+}
+.addCont{
+    width: 435px;
+    height: auto;
+}
+.addCont i{
+    display: block;
+    font-weight: normal;
+    font-style: normal;
+    padding: 20px 0;
+    border-bottom: 1px solid #e2e2e2;
+    color: #ff6666;
+    margin-bottom: 30px;
+}
+.titSp{
+    display: inline-block;
+    width: 120px;
+    /*border: 1px solid red;*/
+    height: 35px;
+    line-height: 35px;
+    text-align: right;
+}
+.titSp em{
+    font-style: normal;
+    color: #ff6666;
+}
+.addCont input{
+    width: 220px;
+    padding-left: 10px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+    margin-left: 20px;
+}
+.addCont input[type=radio]{
+    width: 12px;
+    height: 12px;
+    border: none;
+    outline: none;
+    margin-right: 5px;
+}
+.addCont input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    border: none;
+    outline: none;
+    margin: 2px 5px 0 0;
+}
+.tips{
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding-left: 140px;
+    line-height: 35px;
+    /*border: 1px solid red;*/
+    font-size: 12px;
+    color: red;
+}
+.jiuzhen{
+    border: 1px solid red;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    margin-top: -20px;
+}
+.saveBtn{cursor: pointer;width: 90px;height: 35px;border: none;border-radius: 5px;background: #51a1fe;color: #fff;outline: none;display: block;margin-top: 30px;margin-bottom: 50px;}
+
+.appointCon{
+    position: relative;
+    width: 100%;
+    padding-left: 200px;
+    height: 305px;
+    overflow: hidden;
+    background: url("../images/doctorInfo/bg.png") no-repeat 0 50px;
+}
+.appointCon div{
+    float: left;
+    margin-top: 50px;
+}
+.appointLeft{
+    width: 660px;
+    height: 180px;
+    overflow: hidden;
+    border-right: 1px solid #e0e0e0;
+}
+.appointLeft h1{
+    font-size: 24px;
+    font-weight: normal;
+    color: #212121;
+    /*border: 1px solid red;*/
+    height: 45px;
+    line-height: 45px;
+    margin-top: 35px;
+}
+.appointLeft p{
+    height: 35px;
+    line-height: 35px;
+    color: #757575;
+    font-size: 16px;
+}
+.appointLeft p a{
+    font-size: 16px;
+    color: #4a90e2;
+}
+.appointCode{
+    width: 280px;
+    height: 210px;
+    overflow: hidden;
+    background: url("../images/index/code.png") no-repeat 80px;
+    position: relative;
+}
+
+/*订单编号*/
+.orderNo{
+    float: right;
+    margin-right: 20px;
+    font-size: 14px !important;
+    color: #212121;
+}
+.orderNum{
+    font-style: normal;
+}
+/*订单信息*/
+.orderMes{
+    width: 1080px;
+    height: auto;
+    overflow: hidden;
+    padding: 30px 60px;
+}
+.orderMesList{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.orderMesList li{
+    float: left;
+    width: 540px;
+    height: 50px;
+    line-height: 50px;
+}
+.orderMesList li i{
+    display: inline-block;
+    /*border: 1px solid red;*/
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    font-style: normal;
+    font-size: 16px;
+    color: #212121;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.orderCon{
+    display: inline-block;
+    width: 400px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    /*border: 1px #a0522d solid;*/
+    font-size: 16px;
+    color: #212121;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.orderCon a{
+    font-size: 16px;
+    color: #4a90e2;
+}
+.colorSpan{
+    color: #e21b1b;
+    font-size: 20px;
+}

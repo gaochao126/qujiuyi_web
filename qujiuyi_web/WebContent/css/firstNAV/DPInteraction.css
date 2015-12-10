@@ -1,0 +1,416 @@
+.DPCon {
+	position: relative;
+	width: 1200px;
+	height: auto;
+	overflow: hidden;
+	margin-top: 30px;
+	margin-bottom: 60px;
+}
+.DPLeft {
+	width: 820px;
+	height: auto;
+	float: left;
+}
+.DPRight {
+	width: 335px;
+	height: auto;
+	margin-left: 30px;
+	float: left;
+}
+.DPQuestionCon {
+	width: 100%;
+	overflow: hidden;
+}
+.DPQTop {
+	background: -webkit-linear-gradient(top, #FFFFFF, #D8D8D8);
+	border-radius: 10px 10px 0px 0px;
+	border: solid 1px #CCCCCC;
+	overflow: hidden;
+}
+.DPQTop h1 {
+	text-align: center;
+	padding: 18px 0px 18px 0px;
+	font-size: 24px;
+	font-weight: normal;
+}
+.DPQTop span {
+	color: #4A90E2;
+	font-size: 14px;
+	float: right;
+	margin-top: -40px;
+	padding-right: 20px;
+}
+.DPQContent {
+	height: 395px;
+	border-right: solid 1px #CCCCCC;
+	border-left: solid 1px #CCCCCC;
+	background: #FFFFFF;
+}
+.DPQBottom {
+	background: -webkit-linear-gradient(top, #FFFFFF, #D8D8D8);
+	border-radius: 0px 0px 10px 10px;
+	border: solid 1px #CCCCCC;
+	overflow: hidden;
+	padding: 15px 25px 25px 25px;
+}
+.DPQAge {
+	margin-left: 30px;
+	margin-top: 10px;
+	float: left;
+}
+.DPQGender {
+	float: left;
+	margin-top: 10px;
+}
+.DPQGender span {
+	padding-left: 35px;
+}
+.DPQAddpic {
+	float: right;
+	padding-right: 30px;
+	overflow: hidden;
+}
+.DPQAddPicImg {
+	float: left;
+	padding-top: 3px;
+}
+.DPQAddBtn {
+	border: none;
+	margin: 9px 0px 0px 10px;
+	background:none;
+}
+.subQues {
+	margin-top: 30px;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 60px;
+	border-bottom: solid 1px #CCCCCC;
+}
+.subBtn {
+	border: none;
+	background: #F6A623;
+	color: #EAFFFF;
+	height: 64px;
+	width: 422px;
+	font-size: 24px;
+	border-radius: 6px;
+}
+/*提问举例*/
+
+.DPQExample {
+	background: #FFFFFF;
+	padding: 22px 22px 35px 22px;
+}
+.DPQExample h3 {
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 22px;
+}
+.DPQExample p {
+	color: #1A1A1A;
+	font-size: 16px;
+	line-height: 28px;
+	margin-bottom: 15px;
+}
+.DPQExample span {
+	color: #CCCCCC;
+	font-size: 16px;
+}
+.hotLable {
+	background: #FFFFFF;
+	padding: 22px 22px 35px 22px;
+	margin-top: 30px;
+}
+.hotUl {
+	height: auto;
+	overflow: hidden;
+}
+.hotUl li {
+	float: left;
+	width: auto;
+	padding: 2px 10px;
+	margin-right: 10px;
+	background: #daf8ff;
+	font-size: 14px;
+	color: #10add4;
+	margin-bottom: 10px;
+	cursor: pointer;
+	-moz-transition: all .2s;
+	/* Firefox 4 */
+	
+	-webkit-transition: all .2s;
+	/* Safari 和 Chrome */
+	
+	-o-transition: all .2s;
+	transition: all .2s;
+}
+.hotUl li:hover {
+	background: #2cbade !important;
+	color: #fff !important;
+}
+/*医患沟通栏目*/
+
+.comRecord {
+	background: #FFFFFF;
+	padding: 20px 0px 20px 20px;
+	margin-top: 30px;
+}
+.comRecordScroll {
+	height: 575px;
+	overflow-y: scroll;
+	padding-right: 20px;
+}
+.comRecordItem {
+	margin-top: 24px;
+	overflow: hidden;
+}
+.comRDocImg {
+	float: left;
+	background: #D8D8D8;
+	width: 72px;
+	height: 84px;
+}
+.comRDocInfo {
+	float: right;
+	width: 200px;
+	display: block;
+	font-size: 16px;
+	line-height: 28px;
+	overflow: hidden;
+}
+.comRDocName {
+	color: #10add4;
+	font-size: 18px;
+}
+.comRTime {
+	color: #CCCCCC;
+	font-size: 12px;
+	text-align: right;
+}
+.columnTitle {
+	font-size: 16px;
+	padding-bottom: 10px;
+	color: #808080;
+}
+.redColor {
+	color: #D0021B;
+}
+/*已解决问题scroll*/
+
+.settledScroll {
+	padding-right: 20px;
+	height: 440px;
+	overflow-y: scroll
+}
+.settledCont {
+	float: left;
+	width: 225px;
+	
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 18px;
+}
+.settledTime {
+	float: right;
+	color: #CCCCCC;
+	font-size: 12px;
+	width: 55px;
+	padding-top: 5px;
+	text-align: right;
+}
+.itemTop {
+	margin-top: 25px !important;
+	overflow: hidden;
+}
+/*左下*/
+
+.commonHot {
+	width: 100%;
+}
+.commonHot h1 {
+	margin: 30px 0px 30px 0px;
+	font-weight: normal;
+	font-size: 24px;
+}
+/*news-nav*/
+
+.newsNav {
+	position: relative;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	/*overflow: hidden;*/
+	
+	border-bottom: 1px solid #d8d8d8;
+	background: #f7f7f7;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.12);
+	z-index: 10;
+}
+.newsNav li {
+	position: relative;
+	float: left;
+	width: auto;
+	padding: 0 20px;
+	font-size: 16px;
+	color: #333;
+	z-index: 8;
+}
+.newsNav li:hover {
+	cursor: pointer;
+	color: #4a90e2;
+}
+.newsNav li:before {
+	-webkit-transform: translate(0, -8px);
+	-ms-transform: translate(0, -8px);
+	transform: translate(0, -8px);
+	opacity: 1;
+	position: absolute;
+	top: 130%;
+	left: 50%;
+	width: 10px;
+	height: 10px;
+	background: #3da9f7;
+	content: " ";
+	display: block;
+	margin-top: -7px;
+	margin-left: -3px
+}
+.newsNav li .newsNavAct:before {
+	opacity: 0;
+	-webkit-transition: all 0.3s ease 0.4s;
+	transition: all 0.3s ease 0.4s;
+	-webkit-transform: rotate(45deg) translate(0, 0);
+	-ms-transform: rotate(45deg) translate(0, 0);
+	transform: rotate(45deg) translate(0, 0)
+}
+.newsNavAct {} .newsNavMod {
+	position: relative;
+	width: 820px;
+	/*min-height: 50px;*/
+	
+	height: 50px;
+	line-height: 50px;
+	background: #f7f7f7;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	z-index: 50;
+}
+.navLists {
+	float: left;
+	width: 795px;
+	height: 60px;
+	overflow: hidden;
+	/*background: #ee82ee;*/
+}
+.lisNav {
+	width: auto;
+	max-width: 9999px;
+	height: 50px;
+	/*background: #228b22;*/
+}
+
+.newsNavMod a {
+	float: left;
+	line-height: 50px;
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 16px;
+	color: #666;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+.newsNavMod a:hover {
+	color: #3da9f7;
+}
+.newsNavMod a:before {
+	-webkit-transform: translate(0, -8px);
+	-ms-transform: translate(0, -8px);
+	transform: translate(0, -8px);
+	opacity: 0;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 12px;
+	height: 12px;
+	background: #3da9f7;
+	content: " ";
+	display: block;
+	margin-top: -7px;
+	margin-left: -3px;
+}
+.newsNavMod a.active {
+	position: relative;
+	/* background:#3da9f7; */
+	
+	color: #fff;
+	background: #3da9f7;
+}
+.newsNavMod a.active:before {
+	opacity: 1;
+	-webkit-transition: all 0.3s ease 0.4s;
+	transition: all 0.3s ease 0.4s;
+	-webkit-transform: rotate(45deg) translate(0, 0);
+	-ms-transform: rotate(45deg) translate(0, 0);
+	transform: rotate(45deg) translate(0, 0);
+}
+/*常见疾病*/
+
+.hotDisease {
+	position: relative;
+	width: 780px;
+	background: #fff;
+	margin-top: 20px;
+	padding: 0px 36px 36px 0px;
+	overflow: hidden;
+}
+.hotDocCard {
+	margin: 18px 0px 18px 36px;
+	padding: 20px;
+	float: left;
+	width: 311px;
+	border: solid 1px #CCCCCC;
+}
+.hotCardCon {
+	width: 100%;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.hotDiseaseQ {
+	width: 231px;
+	font-size: 16px;
+	height: 20px;
+	float: left;
+}
+.hotDiseaseInfo {
+	color: #10add4;
+	font-size: 16px;
+	width: 70px;
+	float: right;
+}
+.hotDocAnswer {
+	float: right;
+	width: 180px;
+	font-size: 16px;
+	height: 110px;
+	line-height: 25px;
+}
+.hotDocHead {
+	float: left;
+	padding-top: 3px;
+	width: 102px;
+	height: 119px;
+}
+.readDetail{
+	color: #10ADD4;
+	font-size: 16px;
+}
+.patientInput{
+	width: 757px; height: 335px;border: none; padding: 30px; font-size: 16px;
+}
+.seemore{
+	color: #10ADD4;
+	font-size: 16px;
+	float: right;
+}

@@ -1,0 +1,424 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Microsoft Yahei', 'Hiragino Sans GB','STHeiti Light ', Arial, sans-serif;
+    font-size: 14px;
+}
+textarea{
+	resize: none;
+}
+body{
+    background: #e9eaec;
+}
+.con{
+    width: 1200px;
+    position: relative;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.none{
+    display: none !important;
+}
+img{
+    border-style: none;
+}
+
+/*top*/
+.top {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #f2f2f2;
+    color: #444;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.heaRes {
+    width: auto;
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.heaRes li {
+    float: left;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    color: #444;
+    margin-left: 20px;
+    font-size:12px;
+}
+
+.heaRes li a {
+    font-size: 12px;
+    color: #f5a623;
+}
+
+.heaRes li a:hover {
+    text-decoration: underline;
+}
+.comPhone{
+    display: block;
+    /* width: 110px; */
+    padding-left: 30px;
+    /*border: 1px solid red;*/
+    background: url("../images/index/phone.png") no-repeat 2px;
+    color: #f5a623;
+    font-size: 12px;
+}
+
+/*header*/
+.header {
+    height: 140px;
+    /*border: 1px solid red;*/
+    /*line-height: 140px;*/
+    overflow: hidden;
+    background: #fff;
+}
+
+.header a img {
+    float: left;
+    margin-top: 48px;
+}
+.main_navAc {
+	background:#DA8800 !important;
+    color: #fff !important;
+}
+.header input {
+    width: 455px;
+    height: 36px;
+    padding-left: 25px;
+    margin-top: 50px;
+    margin-left: 52px;
+    border: 2px solid #F5A623;
+    outline: none;
+    font-size: 16px;
+    float: left;
+    color: #333;
+    background: url("../images/icon/SearchIcon.png") no-repeat 6px;
+}
+
+#searBtn{
+    width: 115px;
+    height: 40px;
+    margin-top: 50px;
+    border: 2px solid #F5A623;
+    height: 40px \9;
+    box-sizing: content-box \9;
+    border-left: none;
+    background: #ececec;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    overflow: hidden;
+    font-weight: 500;
+    background: #F5A623;
+}
+#searBtn:hover{
+    cursor: pointer;
+}
+
+/*index_nav*/
+.index_nav{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    background: #F1A322;
+/*     background: #f7f7f7; */
+}
+.nav_mod{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+/*     border-bottom: 1px solid #d4d4d4; */
+    position: relative;
+}
+.nav_mod div{
+    position: relative;
+    /* width: 1100px; */
+    width: 1200px;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.main_nav{
+    width: 100%;
+    overflow: hidden;
+    /*background: #009f95;*/
+}
+
+.main_nav li{
+    float: left;
+    width: 100px;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    position:relative;
+
+}
+.main_nav li img{
+   position:absolute;
+   top:0;
+   left:80px;
+
+}
+.main_nav li a{
+    font-size: 16px;
+    color: #fff;
+    -moz-transition: all .2s;	/* Firefox 4 */
+    -webkit-transition: all .2s;	/* Safari 和 Chrome */
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+.second_mod{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+	padding:15px 0px 15px 0px;
+    position: relative;
+    background: #F7F7F7 !important;
+}
+.second_mod div{
+    position: relative;
+    width: 1100px;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    padding-left: 90px;
+}
+.second_nav{
+	width: 100%;
+    overflow: hidden;
+}
+.second_nav li{
+	float: left;
+    width: 85px;
+    font-size: 15px;
+    text-align: center;
+    opacity:0.87; 
+    cursor: pointer;
+}
+.second_nav li:hover{
+	color:#F5A623;
+}
+.colorOrange{
+	 color: #F1A322;
+}
+.main_nav li:HOVER{
+   background:#FFC460 !important;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    background: #f7f7f7;
+    overflow: hidden;
+    color: #333;
+}
+
+.footerLis {
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    color: #333;
+    overflow: hidden;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.footerLis li {
+    margin-bottom: 15px;
+}
+.footerLis li button{
+    border: none;
+    outline: none;
+    /*cursor: pointer;*/
+    margin-right: 5px;
+    background: none;
+}
+
+.footerLis h1 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+.footerLis h1 img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.bootCon {
+    height: 90px;
+    line-height: 90px;
+    background: #f7f7f7;
+    text-align: center;
+}
+
+.bootCon img {
+    float: left;
+    margin-top: 30px;
+}
+
+.bootCon p {
+    /*float: left;*/
+    height: 90px;
+    line-height: 90px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+
+/*三甲医院*/
+.three {
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    /* width: 28px; */
+    margin-left: 5px;
+    height: 16px;
+    overflow: hidden;
+    background: url("../images/icon/symbol.png") no-repeat;
+}
+
+
+/*开启分页*/
+#page3{
+    width: 1200px;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*返回顶部*/
+#go-top{
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    /*background: #000;*/
+    cursor: pointer;
+    z-index: 999999999;
+    background: url("../images/icon/returntop.png") no-repeat;
+    background-size: cover;
+}
+.dn{
+    display: none;
+}
+.ie11 #searBtn{
+    height: 40px;
+}
+.ie10 #searBtn{
+    height: 36px;
+}
+.ie9 #searBtn{
+    height: 36px;
+}
+.ie8 #searBtn{
+    height: 36px;
+}
+
+.scrollDiv {
+    width: 8px;
+    position: absolute;
+    top: 0;
+    background: red;
+    border-radius: 10px;
+    z-index: 10;
+}
+#helloUser{
+	margin-left:0px; 
+	height:50px; 
+	position: relative; 
+	overflow: hidden;
+	width:200px;
+}
+.indexUserName{
+	position:absolute;
+	color:#f5a623;
+	font-size:12px;
+	padding:0px 10px 0px 10px;
+	left:50px;
+}
+.indexUserName:HOVER{
+	background-color: #fff;
+	height
+}
+.showUSCenter{
+	border:solid 1px #F5F5F5;
+	height:50px !important; 
+	position: fixed;
+	top:40px;
+	left:402px; 
+	background: #fff;
+	width: auto;
+	padding: 3px 10px 0px 10px;
+	display:none;
+	z-index: 1;
+}
+.showUSCenter a{
+	height: 22px;
+	line-height: 22px;
+	display: block;
+	color:#000 !important;
+	font-size:12px !important;
+	opacity:0.57;
+	text-decoration: none !important;
+}
+#searBtn{
+	border-radius:0px;
+}
+.hotSpan{
+	opacity:0.54 !important;
+	color:#000 !important;
+}
+/*弹窗公用部分*/
+/*背景*/
+.popWBackground{
+	background: rgba(0,0,0,0.3);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	text-align: center;
+	display: none;
+}
+/*容器*/
+.popWindow{
+	width:550px;
+	position: relative;
+	top:250px;
+	display: none;
+}
+/*关闭按钮*/
+.popWClose{
+	position: absolute;
+	top: -10px;
+	right: -15px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-size: 30px 30px;
+	background: url(../images/icon/close_1.png) no-repeat;
+}
+/*窗体*/
+.popWContent{
+	width: 545px;
+	background: #fff;
+	overflow: hidden;
+	text-align: left;
+}
