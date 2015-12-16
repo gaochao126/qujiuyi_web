@@ -11,7 +11,12 @@
         </s:else>
         </div>
         <s:if test="@com.jiuyi.qujiuyi.common.Util@isNotEmpty(#session.patient.name)">
-            <p class="userName" style="margin-top: 50px;"><s:property value="#session.patient.name"/></p>
+            <s:if test="gender == 1">
+                <p class="userName" style="margin-top: 50px;"><s:property value="#session.patient.name"/>先生</p>
+            </s:if>
+            <s:else>
+                <p class="userName" style="margin-top: 50px;"><s:property value="#session.patient.name"/>女士</p>
+            </s:else>
         </s:if>
         <s:else>
             <p class="userName" style="margin-top: 50px;">
