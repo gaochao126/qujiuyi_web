@@ -2,10 +2,18 @@
 <%@ taglib uri="/struts-tags" prefix="s"%>
 <div class="userCConLeft">
     <div class="userCHead">
-        <img />
+        <img src="<s:property value="#session.patient.headPortrait"/>"/>
         <span>
             <s:if test="@com.jiuyi.qujiuyi.common.Util@isNotEmpty(#session.patient.name)">
                 <s:property value="#session.patient.name"/>
+            </s:if>
+            <s:if test="@com.jiuyi.qujiuyi.common.Util@isNotEmpty(#session.patient.name)">
+                <s:if test="#session.patient.gender == 1">
+                    <s:property value="#session.patient.name"/>先生
+                </s:if>
+                <s:else>
+                    <s:property value="#session.patient.name"/>女士
+                </s:else>
             </s:if>
             <s:else>
                 <script type="text/javascript">

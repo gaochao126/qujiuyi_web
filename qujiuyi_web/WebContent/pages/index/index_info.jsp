@@ -4,7 +4,7 @@
     <div class="loginYesTop">
         <div class="userAvatar">
         <s:if test="#session.patient.headPortrait!=null">
-        	 <img src="<s:property value="#session.patient.headPortrait"/>" alt="head">
+        	 <img src="<s:property value="#session.patient.headPortrait"/>"/>
         </s:if>
         <s:else>
             <img src="images/index/male_default_head.png" alt="head">
