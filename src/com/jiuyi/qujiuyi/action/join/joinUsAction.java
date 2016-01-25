@@ -9,10 +9,14 @@ import com.jiuyi.qujiuyi.action.BaseAction;
  */
 public class joinUsAction extends BaseAction {
 
-    /** serialVersionUID. */
-    private static final long serialVersionUID = 1L;
+	/** serialVersionUID. */
+	private static final long serialVersionUID = 1L;
 
-    public String joinUs() {
-        return "joinUs";
-    }
+	public String joinUs() {
+		return "joinUs";
+	}
+
+	public String about() {
+		return "about";
+	}
 }
