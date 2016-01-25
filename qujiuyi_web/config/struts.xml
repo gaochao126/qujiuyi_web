@@ -137,6 +137,7 @@
     	</action>
     	<action name="joinUs_*" class="com.jiuyi.qujiuyi.action.join.joinUsAction" method="{1}">
     		<result name="joinUs">/pages/joinUs/joinUs.jsp</result>
+    		<result name="about">/pages/joinUs/protect.jsp</result>
     	</action>
     	<action name="userCenter_*" class="com.jiuyi.qujiuyi.action.userCenter.UserCenterAction" method="{1}">
     		<result name="userCenter">/pages/userCenter/userCenter.jsp</result>
