@@ -80,7 +80,7 @@
                         <ul class="hosRoom">
                             <s:iterator value="oneLevelDepartmentList">
                                 <li title='<s:property value="name"/>' onclick="window.location.href='doctor_chooseDoctor.html?params.departmentId=<s:property value="id"/>';" style="cursor:pointer;">
-                                    <img src='images/icon/<s:property value="icon"/>'><s:property value="name"/>
+                                    <img src='<s:property value="icon"/>'><s:property value="name"/>
                                 </li>
                             </s:iterator>
                         </ul>
