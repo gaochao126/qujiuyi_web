@@ -48,8 +48,8 @@
         					</tr>
 	        				<tbody>
 	        					<tr>
-	        						<td><!-- <img src="images/icon/ios_patient.png" /> --></td>
-	        						<td><!-- <img src="images/icon/android_patient.png" /> --></td>
+	        						<td><img src="images/icon/ios_patient.png" /></td>
+	        						<td><img src="images/icon/android_patient.png" /></td>
 	        						<td><img src="images/icon/weixin.png" /></td>
 	        					</tr>
 	        				</tbody>
