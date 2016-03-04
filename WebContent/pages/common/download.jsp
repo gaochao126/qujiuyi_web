@@ -52,6 +52,11 @@
 	        						<td><img src="images/icon/android_patient.png" /></td>
 	        						<td><img src="images/icon/weixin.png" /></td>
 	        					</tr>
+	        					<tr>
+	        						<td><button class="u-downloadBtn" onclick="window.location.href='http://www.51791.com:51103/resources/file/QuJiuYiPatientE_Dis_APNS_IPA_V1.0.1.ipa'">点击下载</button></td>
+	        						<td><button class="u-downloadBtn" onclick="window.location.href='http://222.180.171.34:51104/qujiuyi_patient/apk/Qujiuyi_1.0.apk'">点击下载</button></td>
+	        						<td></td>
+	        					</tr>
 	        				</tbody>
 	        			</table>
 	        		</div>
@@ -66,6 +71,11 @@
 	        					<tr>
 	        						<td><img src="images/icon/ios_doctor.jpg" /></td>
 	        						<td><img src="images/icon/android_doctor.png" /></td>
+	        						<td></td>
+	        					</tr>
+	        					<tr>
+	        						<td><button class="u-downloadBtn" onclick="window.location.href='https://itunes.apple.com/us/app/791qu-jiu-yi-yi-sheng-ban/id1055584714?ls=1&mt=8'">点击下载</button></td>
+	        						<td><button class="u-downloadBtn" onclick="window.location.href='http://www.51791.com:51115/files/apk/doctor_2.0010.apk'">点击下载</button></td>
 	        						<td></td>
 	        					</tr>
 	        				</tbody>
