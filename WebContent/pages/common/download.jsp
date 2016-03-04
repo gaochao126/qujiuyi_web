@@ -53,7 +53,7 @@
 	        						<td><img src="images/icon/weixin.png" /></td>
 	        					</tr>
 	        					<tr>
-	        						<td><button class="u-downloadBtn" onclick="window.location.href='http://www.51791.com:51103/resources/file/QuJiuYiPatientE_Dis_APNS_IPA_V1.0.1.ipa'">点击下载</button></td>
+	        						<td><button class="u-downloadBtn" onclick="window.location.href='https://itunes.apple.com/cn'">点击下载（审核中）</button></td>
 	        						<td><button class="u-downloadBtn" onclick="window.location.href='http://222.180.171.34:51104/qujiuyi_patient/apk/Qujiuyi_1.0.apk'">点击下载</button></td>
 	        						<td></td>
 	        					</tr>
