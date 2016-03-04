@@ -200,3 +200,14 @@
 #doctorApp{
 	display: none;
 }
+.u-downloadBtn{
+    width:200px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: #f5a623;
+    cursor: pointer;
+    brder-radius:4px;
+}
